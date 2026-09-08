@@ -1,0 +1,33 @@
+{
+  "revision": "轻松路线 + 7天独立深链",
+  "local_base": "http://127.0.0.1:8765/japan-trip/index.html",
+  "live_url": "https://go.skj1023.top/japan-trip/",
+  "commit": "d6f0cc6a48ee865816fe7e47c3c71ee6df2942d1",
+  "files": ["japan-trip/index.html", "japan-trip/revised-izu.html"],
+  "acceptance": {
+    "seven_day_panels": true,
+    "deep_links": ["#day-2026-10-01", "#day-2026-10-02", "#day-2026-10-03", "#day-2026-10-04", "#day-2026-10-05", "#day-2026-10-06", "#day-2026-10-07"],
+    "keyboard_tabs": true,
+    "previous_next_overview_navigation": true,
+    "local_http_200": true,
+    "node_script_syntax": true,
+    "git_diff_check": true,
+    "photos_local_asset_reference": true,
+    "browser_real_interaction": "blocked: browser harness Chrome connection ended before approval; no visual pass claimed",
+    "console_errors": "not observed: browser harness unavailable",
+    "mobile_desktop_visual": "not claimed: browser harness unavailable"
+  },
+  "route_changes": [
+    "10/2 early arrival and rest at Kamenoi Izukogen; meal/transfer status remains explicitly unconfirmed",
+    "10/3 Omuroyama cable car + Jogasaki Coast suspension bridge, with weather/energy fallback",
+    "10/5 Tokyo Tower and Shiba Park short walk; tower ascent optional",
+    "10/6 Tokyo rest / Kichijoji coffee as optional; Kamakura/Enoshima demoted from main route"
+  ],
+  "official_sources": [
+    "https://www.tokyotower.co.jp/en/",
+    "https://omuroyama.com/",
+    "https://itospa.com/spot/detail_54001.html",
+    "https://kamenoi-hotels.com/izukougen/access/",
+    "https://www.jreast.co.jp/multi/en/traininformation/odoriko/"
+  ]
+}
