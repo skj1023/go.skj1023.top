@@ -23,6 +23,10 @@
     "10/5 Tokyo Tower and Shiba Park short walk; tower ascent optional",
     "10/6 Tokyo rest / Kichijoji coffee as optional; Kamakura/Enoshima demoted from main route"
   ],
+  "live_verification": {
+    "raw_github": {"status": 200, "marker": true, "seven_day_tabs": 8, "url": "https://raw.githubusercontent.com/skj1023/go.skj1023.top/main/japan-trip/index.html?cb=45da1e6"},
+    "custom_domain": {"status": 200, "marker": true, "seven_day_tabs": 8, "url": "https://go.skj1023.top/japan-trip/?cb=45da1e7"}
+  },
   "official_sources": [
     "https://www.tokyotower.co.jp/en/",
     "https://omuroyama.com/",
