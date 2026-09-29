@@ -2,44 +2,606 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#102a2d"><meta name="description" content="2026 国庆日本 7天6晚唯一执行页：每日行程、提前准备、交通方式与酒店导航。">
+<meta name="theme-color" content="#102a2d">
+<meta name="description" content="2026 国庆日本 7 天 6 晚移动执行页：7 日行程、酒店与航班、Google 地图一键导航、票务与出发前清单。">
 <meta property="og:title" content="海风线｜日本 7天6晚"><meta property="og:image" content="https://go.skj1023.top/japan-trip/assets/izu.jpg">
 <title>海风线｜日本 7天6晚 · 2026</title>
 <style>
-:root{--ink:#102a2d;--sea:#126b70;--mint:#d9eeea;--sand:#f5ead7;--paper:#fbf8f2;--coral:#e36e50;--gold:#d2a253;--muted:#667876;--line:#dce6df;--card:#fff;--shadow:0 20px 60px #123c3c18;--serif:"Noto Serif CJK SC","Songti SC",Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--paper)}body{margin:0;color:var(--ink);font-family:var(--sans);line-height:1.7;background:var(--paper);padding-bottom:92px}a{color:var(--sea);text-decoration:none}.shell{width:min(1120px,calc(100% - 36px));margin:auto}.mast{padding:22px 0;display:flex;align-items:center;justify-content:space-between;font-size:13px}.logo{font-weight:900;letter-spacing:.12em;color:var(--ink)}.mast nav{display:flex;gap:18px}.mast nav a{color:var(--muted)}.hero{color:#fff;background:linear-gradient(120deg,#102a2df2,#17676bf0),url('assets/izu.jpg') center/cover;min-height:560px;display:flex;align-items:end;padding:64px 0 70px;position:relative;overflow:hidden}.hero:after{content:'海風線';position:absolute;right:-16px;top:30px;color:#ffffff14;font:500 clamp(80px,18vw,220px)/1 var(--serif);writing-mode:vertical-rl}.eyebrow{font-size:12px;letter-spacing:.22em;color:#bce1d6;font-weight:800}.hero h1{font:500 clamp(52px,9vw,104px)/1.03 var(--serif);letter-spacing:-.08em;margin:18px 0 22px;max-width:740px;position:relative}.hero h1 em{font-style:normal;color:#ffb783}.hero p{max-width:650px;color:#dceee8;font-size:17px;margin:0}.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #ffffff70;border-radius:99px;padding:10px 15px;color:#fff;font-size:13px}.btn.hot{background:var(--coral);border-color:var(--coral)}.facts{margin-top:-36px;position:relative;z-index:2}.factgrid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--card);border-radius:20px;box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--line)}.fact{padding:20px 22px;border-right:1px solid var(--line)}.fact:last-child{border:0}.fact small{display:block;color:var(--muted);font-size:11px}.fact b{display:block;margin-top:5px;font:700 18px var(--serif);color:var(--ink)}section{padding-top:74px;scroll-margin-top:18px}.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:22px}.section-head h2{font:500 38px/1.15 var(--serif);margin:0;letter-spacing:-.05em}.section-head p{margin:0;color:var(--muted);max-width:600px}.ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.stay{padding:20px;border-radius:18px;background:var(--card);border:1px solid var(--line);box-shadow:0 8px 24px #123c3c08}.stay.hot{border:2px solid var(--coral);background:linear-gradient(145deg,#fff,#fff5ed)}.stay .label{display:inline-block;border-radius:99px;background:var(--mint);color:var(--sea);font-size:11px;padding:3px 9px;font-weight:800}.stay h3{font:600 22px/1.3 var(--serif);margin:12px 0 8px}.stay p{margin:5px 0;color:var(--muted);font-size:14px}.stay strong{color:var(--ink)}.flights{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.flight{padding:24px;border-radius:20px;background:var(--ink);color:#fff}.flight:last-child{background:#17676b}.flight small{color:#bce1d6;letter-spacing:.16em;font-weight:800}.flight h3{font:500 25px var(--serif);margin:8px 0 14px}.flight .time{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:800}.flight .time i{height:1px;flex:1;background:#ffffff55}.flight .airports{display:flex;justify-content:space-between;color:#cfe5dd;font-size:13px}.flight p{color:#cfe5dd;font-size:13px;margin:14px 0 0}.days{display:grid;gap:13px}.day{display:grid;grid-template-columns:104px 1fr 170px;gap:20px;padding:22px;border:1px solid var(--line);border-radius:20px;background:#fff;box-shadow:0 7px 20px #123c3c08}.day[data-day="1"],.day[data-day="4"]{border-left:4px solid var(--coral)}.day[data-day="2"],.day[data-day="3"]{border-left:4px solid var(--sea)}.daydate{font:700 14px/1.3 var(--serif);color:var(--coral)}.daydate b{display:block;font:500 40px/1 var(--serif);color:var(--ink)}.day h3{font:600 22px/1.35 var(--serif);margin:0 0 7px}.day p{margin:0 0 13px;color:var(--muted);font-size:14px}.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{font-size:11px;padding:4px 8px;border-radius:99px;background:var(--sand);color:#795b2e}.route{border-top:1px dashed var(--line);margin-top:12px;padding-top:12px;display:grid;gap:8px}.route b{font-size:12px;color:var(--sea)}.route span{font-size:13px;color:var(--muted)}.maps{display:flex;gap:7px;flex-wrap:wrap}.maps a,.ticket a{display:inline-flex;border:1px solid #bcd4ce;border-radius:99px;padding:5px 9px;font-size:11px;background:#f4fbf8}.aside{background:#f3f8f4;border-radius:14px;padding:13px;height:max-content;font-size:13px;color:var(--muted)}.aside strong{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}.ticket-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}.ticket{padding:22px;border-radius:20px;background:var(--ink);color:#fff}.ticket h3{font:500 23px var(--serif);margin:0 0 14px}.ticket ol{padding-left:20px;margin:0}.ticket li{margin:9px 0;color:#d7e9e1;font-size:14px}.ticket a{color:var(--sea);background:#fff;border:0;margin-top:12px}.buy-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.buy-card{padding:22px;border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px #123c3c08;position:relative}.buy-card.urgent{border:2px solid var(--coral);background:linear-gradient(145deg,#fff,#fff7f1)}.buy-card .status{display:inline-flex;border-radius:99px;padding:4px 9px;background:var(--mint);color:var(--sea);font-size:11px;font-weight:800}.buy-card.urgent .status{background:#ffe0d6;color:#a64027}.buy-card h3{font:600 22px/1.3 var(--serif);margin:12px 0 8px}.buy-card p{margin:7px 0;color:var(--muted);font-size:14px}.buy-card p strong{color:var(--ink)}.buy-card .steps{margin:12px 0;padding-left:20px;color:var(--muted);font-size:13px}.buy-card .steps li{margin:5px 0}.buy-card .buy-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.buy-card .buy-actions a{display:inline-flex;border-radius:99px;padding:7px 11px;background:var(--ink);color:#fff;font-size:12px}.buy-card .buy-actions a.alt{background:var(--mint);color:var(--sea)}.prep{display:grid;gap:12px}.prep article{padding:19px;border-radius:18px;background:var(--sand);border:1px solid #ead9ba}.prep h3{margin:0 0 6px;font:600 20px var(--serif)}.prep p{margin:0;color:#725f43;font-size:14px}.sources{display:flex;flex-wrap:wrap;gap:10px}.sources a{padding:10px 13px;border-radius:12px;background:var(--mint);font-size:13px}.note{padding:17px 20px;border-left:4px solid var(--gold);background:#fff8e9;color:#715d3b;border-radius:0 14px 14px 0;font-size:13px}.bottom{position:fixed;z-index:10;bottom:0;left:50%;transform:translateX(-50%);width:min(650px,calc(100% - 18px));padding:8px 10px calc(8px + env(safe-area-inset-bottom));border:1px solid #d5e2dc;background:#ffffffed;backdrop-filter:blur(16px);border-radius:20px 20px 0 0;box-shadow:0 -10px 30px #123c3c15;display:flex;justify-content:space-around}.bottom a{color:var(--muted);font-size:11px;text-align:center;padding:4px 9px;border-radius:12px}.bottom a.active{background:var(--ink);color:#fff}.filter{display:flex;gap:7px;overflow:auto;padding:4px 0 15px;scrollbar-width:none}.filter button{flex:0 0 auto;border:1px solid var(--line);background:#fff;border-radius:99px;color:var(--muted);padding:8px 13px;font:inherit;font-size:12px}.filter button.active{background:var(--ink);color:#fff;border-color:var(--ink)}.footer{margin-top:70px;padding:30px 0;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}@media(max-width:700px){.buy-grid{grid-template-columns:1fr}.shell{width:calc(100% - 28px)}.mast nav{display:none}.hero{min-height:570px;padding:54px 0}.hero h1{font-size:60px}.hero p{font-size:15px}.factgrid{grid-template-columns:1fr 1fr}.fact{padding:15px 13px}.fact:nth-child(2){border-right:0}.fact:nth-child(-n+2){border-bottom:1px solid var(--line)}.fact b{font-size:15px}.section-head{display:block}.section-head h2{font-size:31px;margin-bottom:7px}.ledger,.flights,.ticket-grid{grid-template-columns:1fr}.day{grid-template-columns:65px 1fr;padding:17px;gap:12px}.daydate b{font-size:31px}.day h3{font-size:19px}.aside{grid-column:2;padding:10px}.route span{font-size:13px}.bottom a{padding:4px 6px}.hero-actions .btn{font-size:12px}.stay h3{font-size:20px}}@media(min-width:701px){.days .day:nth-child(odd){margin-right:35px}.days .day:nth-child(even){margin-left:35px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
-
-.filter a{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:99px;padding:8px 13px;font:inherit;font-size:13px;cursor:pointer}.filter a.active,.filter a:focus-visible{background:var(--ink);border-color:var(--ink);color:#fff;outline:3px solid #bce1d6;outline-offset:2px}.day{scroll-margin-top:18px}.day[hidden]{display:none}.day-nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.day-nav a{border:1px solid var(--line);border-radius:99px;padding:7px 11px;font-size:12px;background:#fff}.quiet{background:var(--mint);padding:12px 14px;border-radius:12px;margin-top:12px;font-size:13px}@media(max-width:600px){.filter{overflow-x:auto;flex-wrap:nowrap;padding-bottom:8px}.filter a{flex:0 0 auto}.day-nav a{font-size:11px}}
-
-.filter a{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:99px;padding:8px 13px;font:inherit;font-size:13px;cursor:pointer}.filter a.active,.filter a:focus-visible{background:var(--ink);border-color:var(--ink);color:#fff;outline:3px solid #bce1d6;outline-offset:2px}.day{scroll-margin-top:18px}.day[hidden]{display:none}.day-nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.day-nav a{border:1px solid var(--line);border-radius:99px;padding:7px 11px;font-size:12px;background:#fff}.quiet{background:var(--mint);padding:12px 14px;border-radius:12px;margin-top:12px;font-size:13px}@media(max-width:600px){.filter{overflow-x:auto;flex-wrap:nowrap;padding-bottom:8px}.filter a{flex:0 0 auto}.day-nav a{font-size:11px}}
-</style></head>
+:root{--ink:#102a2d;--sea:#126b70;--mint:#d9eeea;--sand:#f5ead7;--paper:#fbf8f2;--coral:#e36e50;--gold:#d2a253;--muted:#667876;--line:#dce6df;--card:#fff;--shadow:0 16px 44px #123c3c14;--serif:"Noto Serif CJK SC","Songti SC",Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;--bar:54px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--paper);-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);font:400 16px/1.7 var(--sans);background:var(--paper);padding-bottom:84px}
+a{color:var(--sea);text-decoration:none}
+img{max-width:100%;display:block}
+.shell{width:min(1120px,calc(100% - 28px));margin-inline:auto}
+section{scroll-margin-top:calc(var(--bar) + 10px)}
+/* ---------- 顶部固定导航 ---------- */
+.topbar{position:sticky;top:0;z-index:60;background:rgba(251,248,242,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .shell{display:flex;align-items:center;gap:10px;min-height:var(--bar)}
+.brand{font-weight:900;letter-spacing:.06em;font-size:12px;color:var(--ink);white-space:nowrap;flex:0 0 auto}
+.brand i{font-style:normal;color:var(--sea)}
+.chips{display:flex;gap:7px;overflow-x:auto;padding:9px 0;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:#fff;border-radius:99px;padding:8px 13px;font-size:13px;line-height:1;color:var(--muted);white-space:nowrap}
+.chip.active{background:var(--ink);border-color:var(--ink);color:#fff}
+/* ---------- 封面 ---------- */
+.hero{color:#fff;background:linear-gradient(120deg,rgba(16,42,45,.95),rgba(23,103,107,.88)),url('assets/izu.jpg') center/cover;padding:48px 0 56px;position:relative;overflow:hidden}
+.hero:after{content:'海風線';position:absolute;right:-8px;top:10px;color:rgba(255,255,255,.08);font:500 clamp(64px,20vw,190px)/1 var(--serif);writing-mode:vertical-rl;pointer-events:none}
+.eyebrow{font-size:11px;letter-spacing:.2em;color:#bce1d6;font-weight:800}
+.hero h1{font:500 clamp(38px,11vw,92px)/1.05 var(--serif);letter-spacing:-.04em;margin:14px 0 16px;max-width:720px;position:relative}
+.hero h1 em{font-style:normal;color:#ffb783}
+.hero p{max-width:640px;color:#dceee8;font-size:15px;margin:0;position:relative}
+.hero-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;position:relative}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.45);border-radius:99px;padding:11px 15px;color:#fff;font-size:13.5px}
+.btn.hot{background:var(--coral);border-color:var(--coral)}
+/* ---------- 概览卡 ---------- */
+.facts{margin-top:-26px;position:relative;z-index:2}
+.factgrid{display:grid;grid-template-columns:repeat(2,1fr);background:var(--card);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--line)}
+.fact{padding:12px 14px;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}
+.fact small{display:block;font-size:11px;color:var(--muted);letter-spacing:.06em}
+.fact b{font-size:14.5px}
+@media(min-width:760px){.factgrid{grid-template-columns:repeat(4,1fr)}.fact{border-bottom:0}.fact:last-child{border-right:0}}
+/* ---------- 通用区块 ---------- */
+.section-head{margin:36px 0 14px}
+.section-head h2{font:500 24px/1.25 var(--serif);margin:0 0 6px}
+.section-head p{margin:0;color:var(--muted);font-size:13.5px}
+.cards{display:grid;gap:12px}
+@media(min-width:720px){.cards.two{grid-template-columns:repeat(2,1fr)}.cards.three{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
+.card h3{margin:0 0 6px;font-size:16.5px}
+.card p{margin:6px 0;font-size:14px}
+.card p.small,.small{font-size:12.5px;color:var(--muted)}
+.label{display:inline-block;font-size:11px;letter-spacing:.04em;color:var(--sea);background:var(--mint);border-radius:99px;padding:3px 9px;margin-bottom:7px}
+.card.hot{border-color:#f0c9bb;background:linear-gradient(180deg,#fff7f3,#fff)}
+.note{background:var(--mint);border-radius:13px;padding:11px 13px;font-size:13.5px;margin-top:12px}
+.note b{color:var(--ink)}
+.maps{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px}
+.maps a{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:#fff;border-radius:99px;padding:9px 12px;font-size:12.5px;line-height:1.2;color:var(--sea);min-height:38px}
+.maps a:before{content:'📍';font-size:11px}
+.maps a.doc:before{content:'🔗'}
+.maps a.pri{background:var(--sea);border-color:var(--sea);color:#fff}
+/* ---------- 日程 ---------- */
+.daybar{position:sticky;top:var(--bar);z-index:50;background:var(--paper);padding:9px 0;border-bottom:1px solid var(--line);margin-bottom:14px}
+.daybar .chips{padding:0}
+.day{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:15px;margin-bottom:14px;scroll-margin-top:calc(var(--bar) + 62px)}
+.day[hidden]{display:none}
+.dayhead{display:flex;gap:12px;align-items:center;padding-bottom:12px;border-bottom:1px dashed var(--line)}
+.datedot{flex:0 0 auto;width:54px;text-align:center;background:var(--ink);color:#fff;border-radius:14px;padding:6px 0}
+.datedot b{display:block;font:500 22px/1.1 var(--serif)}
+.datedot span{font-size:10.5px;letter-spacing:.02em}
+.dayhead h3{margin:0;font-size:17px;line-height:1.35}
+.dayhead .sub{margin:3px 0 0;font-size:12px;color:var(--muted)}
+.day h4{margin:16px 0 7px;font-size:13px;letter-spacing:.05em;color:var(--sea)}
+.day h4:first-of-type{margin-top:14px}
+.bullets{margin:0;padding-left:18px;font-size:14.5px}
+.bullets li{margin:4px 0}
+.steps{display:grid;gap:0}
+.step{display:grid;grid-template-columns:104px 1fr;gap:10px;padding:9px 0;border-bottom:1px dotted var(--line)}
+.step:last-child{border-bottom:0}
+.step .t{font-size:12.5px;font-weight:700;color:var(--sea);line-height:1.55}
+.step .c{font-size:14.5px}
+.step .c p{margin:0 0 4px}
+.subcard{border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff}
+.subcard h5{margin:0 0 4px;font-size:15px}
+.subcard p{margin:3px 0;font-size:13px;color:var(--muted)}
+.day-nav{display:flex;gap:8px;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.day-nav a{flex:1;text-align:center;border:1px solid var(--line);border-radius:99px;padding:11px 8px;font-size:13px;background:#fff}
+.day-nav a.dis{opacity:.35;pointer-events:none}
+/* ---------- 票务 ---------- */
+.buy-grid{display:grid;gap:12px}
+@media(min-width:820px){.buy-grid{grid-template-columns:repeat(2,1fr)}}
+.buy-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:15px}
+.buy-card.urgent{border-color:#e8b9a7;background:linear-gradient(180deg,#fff7f3,#fff)}
+.status{display:inline-block;font-size:11px;font-weight:800;color:var(--coral);letter-spacing:.04em;margin-bottom:6px}
+.buy-card h3{margin:0 0 8px;font-size:16.5px}
+.buy-card p{margin:6px 0;font-size:14px}
+.steps-list{margin:8px 0 6px;padding-left:19px;font-size:13.5px;color:#33474a}
+.steps-list li{margin:4px 0}
+.buy-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.buy-actions a{border:1px solid var(--sea);color:#fff;background:var(--sea);border-radius:99px;padding:9px 13px;font-size:12.5px}
+.buy-actions a.alt{background:#fff;color:var(--sea)}
+/* ---------- 准备 / 其他 ---------- */
+.prep{display:grid;gap:12px;margin-top:12px}
+@media(min-width:720px){.prep{grid-template-columns:repeat(2,1fr)}}
+.prep article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px}
+.prep h3{margin:0 0 5px;font-size:15px}
+.prep p{margin:0;font-size:13.5px;color:var(--muted)}
+.prep ol{margin:6px 0 8px;padding-left:19px;font-size:13.5px}
+.prep ol li{margin:5px 0}
+.sources{display:flex;flex-wrap:wrap;gap:7px}
+.sources a{border:1px solid var(--line);border-radius:99px;padding:8px 12px;font-size:12.5px;background:#fff}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.gallery img{border-radius:12px;height:96px;object-fit:cover;width:100%}
+.footer{margin:34px 0 10px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);text-align:center}
+/* ---------- 底部导航 ---------- */
+.bottom{position:fixed;left:0;right:0;bottom:0;z-index:70;background:rgba(251,248,242,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:flex;padding:5px 4px calc(5px + env(safe-area-inset-bottom))}
+.bottom a{flex:1;text-align:center;font-size:10.5px;color:var(--muted);padding:5px 0;border-radius:11px}
+.bottom a i{display:block;font-size:17px;font-style:normal;line-height:1.25}
+.bottom a.active{color:var(--ink);background:var(--mint)}
+@media(min-width:900px){.bottom{display:none}body{padding-bottom:20px}}
+@media(max-width:420px){.step{grid-template-columns:92px 1fr}.gallery img{height:78px}}
+</style>
+</head>
 <body>
-<header class="shell mast"><a class="logo" href="https://go.skj1023.top">GO / TRAVEL NOTES</a><nav><a href="#days">每日行程</a><a href="#tickets">必买票务</a><a href="#prepare">提前准备</a><a href="#transport">交通</a><a href="#hotels">酒店导航</a></nav></header>
-<section class="hero"><div class="shell"><div class="eyebrow">AUTUMN 2026 · JAPAN · 7D6N</div><h1>先去海边，<br><em>再回东京。</em></h1><p>10/1—10/7。成田落地住大手町，伊豆高原的龟之井两晚，日本桥皇家花园收尾。每天只安排一个重点：能坐就坐，累了就回酒店。</p><div class="hero-actions"><a class="btn hot" href="#days">打开七天行程 ↓</a><a class="btn" href="#tickets">打开购票清单</a><a class="btn" href="#prepare">查看出发前清单</a></div></div></section>
-<div class="facts"><div class="shell factgrid"><div class="fact"><small>日期</small><b>10/1 — 10/7</b></div><div class="fact"><small>住宿</small><b>东京 1 · 伊豆 2 · 日本桥 3</b></div><div class="fact"><small>已订航班</small><b>MU521 / MU538</b></div><div class="fact"><small>路线气质</small><b>城市 → 海岸 → 城市</b></div></div></div>
+
+<header class="topbar"><div class="shell"><a class="brand" href="https://go.skj1023.top">GO <i>/ 海风线</i></a><nav class="chips" aria-label="模块导航">
+<a class="chip" href="#overview">概览</a><a class="chip" href="#weather">天气</a><a class="chip" href="#hotels">酒店</a><a class="chip" href="#transport">交通</a><a class="chip" href="#days">日程</a><a class="chip" href="#tickets">票务</a><a class="chip" href="#prepare">准备</a>
+</nav></div></header>
+
+<section class="hero"><div class="shell">
+<div class="eyebrow">AUTUMN 2026 · JAPAN · 7D6N</div>
+<h1>先去海边，<br><em>再回东京。</em></h1>
+<p>10/1—10/7。成田落地住大手町，伊豆高原的龟之井两晚，日本桥皇家花园收尾。每天只安排一个重点：能坐就坐，累了就回酒店。</p>
+<div class="hero-actions"><a class="btn hot" href="#days">打开七天行程 ↓</a><a class="btn" href="#tickets">购票清单</a><a class="btn" href="#prepare">出发前清单</a></div>
+</div></section>
+
+<div class="facts"><div class="shell factgrid">
+<div class="fact"><small>日期</small><b>10/1 — 10/7</b></div>
+<div class="fact"><small>住宿</small><b>东京 1 · 伊豆 2 · 日本桥 3</b></div>
+<div class="fact"><small>航班</small><b>MU521 / MU538</b></div>
+<div class="fact"><small>路线</small><b>城市 → 海岸 → 城市</b></div>
+</div></div>
+
 <main class="shell">
-<section id="hotels"><div class="section-head"><h2>酒店导航 · 只保留已确认住宿</h2><p>三段住宿集中在这里。每张卡同时提供地图和官方入口，不再展示候选酒店、比价过程或旧订单研究。</p></div><div class="ledger"><article class="stay"><span class="label">10/1 入住 · 10/2 退房</span><h3>Hotel Villa Fontaine Tokyo-Otemachi</h3><p><strong>东京大手町 · 1 晚</strong></p><p>首晚落地据点。东京站带箱建议直接打车；订单载明无餐。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&query=Hotel+Villa+Fontaine+Tokyo-Otemachi" target="_blank" rel="noopener">Google Maps</a><a href="https://www.hvf.jp/eng/otemachi/" target="_blank" rel="noopener">酒店官网</a></div></article><article class="stay hot"><span class="label">10/2 入住 · 10/4 退房</span><h3>亀の井ホテル 伊豆高原</h3><p><strong>KAMENOI HOTEL IZUKOGEN · 2 晚</strong></p><p>伊豆行程基点。伊豆高原站樱并木口乘免费接驳约 5 分钟；餐食和退房时间按订单房型确认。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&query=KAMENOI+HOTEL+IZUKOGEN" target="_blank" rel="noopener">Google Maps</a><a href="https://kamenoi-hotels.com/izukougen/" target="_blank" rel="noopener">酒店官网</a><a href="https://kamenoi-hotels.com/izukougen/access/" target="_blank" rel="noopener">接驳时刻</a></div></article><article class="stay"><span class="label">10/4 入住 · 10/7 退房</span><h3>Royal Park Hotel</h3><p><strong>东京日本桥 · 3 晚</strong></p><p>水天宫前站直连，二层连廊通往 T-CAT；返程去羽田最方便。订单载明无餐。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&query=Royal+Park+Hotel+Tokyo+Nihonbashi" target="_blank" rel="noopener">Google Maps</a><a href="https://www.rph.co.jp/en/" target="_blank" rel="noopener">酒店官网</a><a href="https://www.rph.co.jp/en/destinations-activities/location/" target="_blank" rel="noopener">官方交通</a></div></article></div></section>
-<section id="transport"><div class="section-head"><h2>全程交通 · 按行李与体力设计</h2><p>跨城段提前锁定指定席；伊豆当地用接驳、出租车和公交组合；东京市内以地铁为主，带箱时不勉强换乘。</p></div><div class="flights"><article class="flight"><small>2026/10/01 · 已确认</small><h3>MU521 · 上海 → 成田</h3><div class="time"><b>11:45</b><i></i><b>15:55</b></div><div class="airports"><span>浦东 T1</span><span>成田 T2</span></div><p>落地后乘 N’EX 到东京站，再打车去大手町酒店。</p></article><article class="flight"><small>2026/10/07 · 已确认</small><h3>MU538 · 羽田 → 上海</h3><div class="time"><b>14:30</b><i></i><b>17:20</b></div><div class="airports"><span>羽田 T3</span><span>虹桥 T1</span></div><p>从酒店二层步行至 T-CAT，优先机场巴士。</p></article></div><div class="ledger" style="margin-top:14px"><article class="stay"><span class="label">10/1 · 机场进城</span><h3>成田 T2 → 东京站</h3><p><strong>首选 N’EX 指定席</strong></p><p>到东京站后带行李打车前往大手町。N’EX 等待过长时再比较 Access 特急。</p><div class="maps"><a href="https://www.jreast.co.jp/multi/en/nex/" target="_blank" rel="noopener">JR East N’EX</a></div></article><article class="stay hot"><span class="label">10/2、10/4 · 跨城</span><h3>东京 ⇄ 伊豆高原</h3><p><strong>特急踊り子 · 全程指定席优先</strong></p><p>两段 KLOOK 电子特急票已买：去程 Odoriko 5，返程 Odoriko 4。乘车时在 KLOOK App 内打开电子票并提前保存到设备。</p><div class="maps"><a href="https://www.jreast.co.jp/en/multi/traininformation/odoriko/" target="_blank" rel="noopener">踊り子官方</a><a href="https://www.izukyu.co.jp/english/" target="_blank" rel="noopener">伊豆急行</a></div></article><article class="stay"><span class="label">10/3 · 伊豆当地</span><h3>酒店 → 大室山 → 城崎海岸</h3><p><strong>出租车为主，公交为备</strong></p><p>酒店到大室山约 10 分钟车程；大室山到门胁吊桥建议出租车，减少等车与长距离步行。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Kamenoi+Hotel+Izukogen&destination=Mount+Omuro&travelmode=driving" target="_blank" rel="noopener">酒店 → 大室山</a><a href="https://www.google.com/maps/dir/?api=1&origin=Mount+Omuro&destination=Kadowaki+Suspension+Bridge&travelmode=driving" target="_blank" rel="noopener">大室山 → 吊桥</a></div></article><article class="stay"><span class="label">10/4—10/6 · 东京市内</span><h3>水天宫前 / 人形町为基点</h3><p><strong>地铁＋短程出租车</strong></p><p>去东京塔由人形町乘日比谷线到神谷町；日本桥区域以步行为主。带箱转场直接打车。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Royal+Park+Hotel+Tokyo&destination=Tokyo+Tower&travelmode=transit" target="_blank" rel="noopener">酒店 → 东京塔</a></div></article><article class="stay"><span class="label">10/7 · 机场返程</span><h3>T-CAT → 羽田 T3</h3><p><strong>首选机场巴士</strong></p><p>目标 11:30 前抵达；遇停运或严重拥堵，改从人形町乘都营浅草线直通/换乘京急机场线。</p><div class="maps"><a href="https://www.tcat-hakozaki.co.jp/direct/haneda.html" target="_blank" rel="noopener">T-CAT 羽田交通</a></div></article></div></section>
-<section id="days"><div class="section-head"><h2>7 日执行台</h2><p>点日期只看当天；每一天都有独立深链。优先坐车、少换乘，天气或体力不好就删减。</p></div><div class="filter" role="tablist" aria-label="按日期筛选"><a class="active" role="tab" aria-selected="true" href="#days">总览</a><a role="tab" aria-selected="false" href="#day-2026-10-01">10/1</a><a role="tab" aria-selected="false" href="#day-2026-10-02">10/2</a><a role="tab" aria-selected="false" href="#day-2026-10-03">10/3</a><a role="tab" aria-selected="false" href="#day-2026-10-04">10/4</a><a role="tab" aria-selected="false" href="#day-2026-10-05">10/5</a><a role="tab" aria-selected="false" href="#day-2026-10-06">10/6</a><a role="tab" aria-selected="false" href="#day-2026-10-07">10/7</a></div><div class="days">
-<article class="day" id="day-2026-10-01" data-day="1"><div class="daydate"><b>01</b>10/1<br>周四</div><div><h3>抵达东京 · 成田 T2 → 大手町</h3><p><strong>15:55—17:30｜落地与入境</strong>　MU521 抵达成田 T2。预留约 90 分钟办理入境、取行李、洗手间与购买/充值 Suica；不在机场安排购物。</p><p><strong>17:30—19:15｜进入东京</strong>　优先购买最近一班 N’EX 指定席到东京站；若等待超过 35 分钟，再比较 Access 特急。抵达东京站后带箱直接打车到酒店，避免在大手町地下通道绕行。</p><p><strong>19:30—21:00｜入住与晚餐</strong>　入住 Villa Fontaine Tokyo-Otemachi。晚餐限定酒店步行 10 分钟内或东京站丸之内，吃完即回，不追加夜景。</p><div class="route"><b>当日关键</b><span>航班延误时只保留“到酒店＋晚餐”。N’EX 全车指定席，最终班次在抵达后按 JR East 当日显示购买。</span><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Narita+International+Airport+Terminal+2&destination=Hotel+Villa+Fontaine+Tokyo-Otemachi&travelmode=transit" target="_blank" rel="noopener">成田 → 酒店地图</a><a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station+Marunouchi" target="_blank" rel="noopener">晚餐地图</a></div></div></div><aside class="aside"><strong>住：大手町</strong>已订 1 晚 · 无餐<br>步数目标：6,000 内</aside><nav class="day-nav" aria-label="日期导航"><a href="#days">总览</a><a href="#day-2026-10-02">2/下一天 →</a></nav></article>
-<article class="day" id="day-2026-10-02" data-day="2"><div class="daydate"><b>02</b>10/2<br>周五</div><div><h3>大手町酒店 → 神田站 → 东京站 → 伊豆高原</h3><p><strong>07:40—08:30｜早餐、整理与退房</strong>　在酒店附近简单早餐，回房确认预约邮件、取票信息、护照、钱包和充电设备；08:30 左右完成退房，大件行李全程随身。</p><p><strong>08:40—09:00｜步行到神田站</strong>　从 Villa Fontaine Tokyo-Otemachi 步行至 JR 神田站西口，约 5—8 分钟。刷 Suica 后搭山手线、京滨东北线或中央线快速任意一趟“东京方向”列车。</p><p><strong>09:00—09:10｜神田 → 东京站</strong>　只坐 1 站，车程约 2—3 分钟。到站后跟随“东海道线 / Limited Express Odoriko”标识；不要拖箱穿大手町地下通道。</p><p><strong>09:10—09:30｜领取纸质车票</strong>　打开 KLOOK App 内电子特急列车票并保存到设备。确认票面为 10/2、Odoriko 5、东京→伊豆高原、8号车 7A/7B。</p><p><strong>09:30—09:45｜补给与找站台</strong>　买便当、饮料后立即看电子屏确认站台；09:45 前到站台，不临时逛商场。</p><p><strong>10:00—12:04｜Odoriko 5 南下</strong>　8号车 7A/7B 连坐，7A 为海侧靠窗、7B 为相邻座；小田原后留意海景。</p><p><strong>12:04—14:20｜午餐与等接驳</strong>　出站后先确认接驳点，在车站周边午餐；需要时使用寄存柜，14:15 前回到樱并木口（北口）候车。</p><p><strong>14:30—晚间｜接驳、入住与泡汤</strong>　乘亀の井酒店免费接驳约 5 分钟抵达，15:00 后入住；下午只安排海景、泡汤和休息。</p><div class="route"><b>已确定车票</b><span>KLOOK Odoriko 5｜10:00 东京 → 12:04 伊豆高原｜成人 2 人｜8号车 7A/7B｜实付 ¥512.00｜已出票。</span><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Villa+Fontaine+Tokyo-Otemachi&destination=Kanda+Station+West+Exit&travelmode=walking" target="_blank" rel="noopener">酒店 → 神田站西口</a><a href="https://www.google.com/maps/dir/?api=1&origin=Kanda+Station+Tokyo&destination=Tokyo+Station&travelmode=transit" target="_blank" rel="noopener">神田站 → 东京站</a><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Villa+Fontaine+Tokyo-Otemachi&destination=Tokyo+Station&travelmode=transit" target="_blank" rel="noopener">酒店 → 东京站全程</a><a href="https://www.google.com/maps/search/?api=1&query=JR+East+Reserved+Seat+Ticket+Vending+Machine+Tokyo+Station" target="_blank" rel="noopener">东京站取票机</a><a href="https://kamenoi-hotels.com/izukougen/access/" target="_blank" rel="noopener">酒店接驳时刻</a></div></div></div><aside class="aside"><strong>09:45 前到站台</strong>10:00 发车 · 12:04 抵达<br>8号车 7A/7B</aside><nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-01">← 1/上一天</a><a href="#days">总览</a><a href="#day-2026-10-03">3/下一天 →</a></nav></article>
-<article class="day" id="day-2026-10-03" data-day="3"><div class="daydate"><b>03</b>10/3<br>周六</div><div><h3>大室山 → 城崎海岸 · 伊豆自然日</h3><p><strong>08:00—09:00｜早餐与天气判断</strong>　先看大室山缆车当日运行和海岸风力。晴朗时大室山优先；低云、强风或降雨则推迟出门。</p><p><strong>09:00—11:15｜大室山</strong>　酒店到大室山车程约 10 分钟，建议出租车直达。乘缆车上山后完成约 1 公里火山口环线；若膝腿不适，只在山顶平台看景，不强走一圈。</p><p><strong>11:30—13:00｜午餐与转场</strong>　在大室山/仙人掌公园入口一带午餐。两人无自驾，下午用出租车直达门胁吊桥入口，减少公交等待和步行。</p><p><strong>13:30—15:45｜城崎海岸精华段</strong>　只走门胁吊桥、门胁灯塔及附近海岸短段，不走完整长距离步道。15:30 左右叫车回酒店，预留泡汤和晚餐时间。</p><div class="route"><b>天气备选</b><span>大室山停运：改伊豆泰迪熊博物馆＋酒店；海岸风大：只留大室山。两个景点最多保留一个，安全优先。</span><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Kamenoi+Hotel+Izukogen&destination=Mount+Omuro&travelmode=transit" target="_blank" rel="noopener">酒店 → 大室山</a><a href="https://www.google.com/maps/dir/?api=1&origin=Mount+Omuro&destination=Kadowaki+Suspension+Bridge&travelmode=driving" target="_blank" rel="noopener">大室山 → 门胁吊桥</a></div></div></div><aside class="aside"><strong>住：伊豆高原</strong>连续第 2 晚<br>步数目标：10,000 内</aside><nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-02">← 2/上一天</a><a href="#days">总览</a><a href="#day-2026-10-04">4/下一天 →</a></nav></article>
-<article class="day" id="day-2026-10-04" data-day="4"><div class="daydate"><b>04</b>10/4<br>周日</div><div><h3>伊豆高原 → 日本桥 · 人形町夜散步</h3><p><strong>08:00—10:00｜慢早餐与退房</strong>　不排晨间景点。按房型确认 10:00 或 11:00 退房；优先搭酒店 10:20 接驳，若退房时间允许也可选 11:20。</p><p><strong>11:20—12:20｜退房后去伊豆高原站</strong>　不排晨间景点。早餐后收拾行李、退房，优先乘酒店接驳或出租车到伊豆高原站；12:20 前到站，留出买饮料和确认站台时间。</p><p><strong>12:46—14:49｜Odoriko 4 回东京</strong>　KLOOK 已出票；伊豆高原 12:46 → 东京 14:49，成人 2 人，指定座席普通车厢，1号车 14C/14D，合计 ¥512.00；东京站到达站台 8。</p><p><strong>15:00—16:00｜东京站 → 酒店</strong>　带箱从东京站直接打车到 Royal Park Hotel。抵达后办理入住并休息。</p><p><strong>17:00—20:00｜水天宫与人形町</strong>　从酒店步行至水天宫、甘酒横丁、人形町，找寿喜烧、烧鸟或荞麦面。只走酒店周边一圈，不跨区。</p><div class="route"><b>交通重点</b><span>返程已买 KLOOK Odoriko 4：10/4 伊豆高原 12:46 → 东京 14:49，1号车 14C/14D，2 人 ¥512.00。抵达东京后打车约 2 公里，价值高于拖箱换乘。</span><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Kamenoi+Hotel+Izukogen&destination=Izukogen+Station&travelmode=transit" target="_blank" rel="noopener">酒店 → 车站</a><a href="https://www.google.com/maps/dir/?api=1&origin=Tokyo+Station&destination=Royal+Park+Hotel+Tokyo&travelmode=driving" target="_blank" rel="noopener">东京站 → 酒店</a></div></div></div><aside class="aside"><strong>住：日本桥</strong>已订 3 晚<br>当天以转场为主</aside><nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-03">← 3/上一天</a><a href="#days">总览</a><a href="#day-2026-10-05">5/下一天 →</a></nav></article>
-<article class="day" id="day-2026-10-05" data-day="5"><div class="daydate"><b>05</b>10/5<br>周一</div><div><h3>增上寺 → 芝公园 → 东京塔</h3><p><strong>09:00—10:30｜慢早餐</strong>　在人形町早餐，避开通勤高峰后出发。由人形町搭日比谷线到神谷町，或体力一般时直接出租车到增上寺。</p><p><strong>10:45—12:15｜增上寺与芝公园</strong>　先看增上寺正殿，再从芝公园取东京塔经典红塔视角。路线平缓，以拍照和坐下休息为主。</p><p><strong>12:30—14:00｜午餐</strong>　在芝公园、神谷町或麻布台一带午餐，不在塔内排长队。午餐后重新判断是否登塔。</p><p><strong>14:00—16:30｜东京塔</strong>　天气通透就上 Main Deck；不登塔也可逛 FootTown 后返回。Main Deck 官方当前营业 09:00—23:00，成人票 1,500 日元，最终以出发日页面为准。</p><p><strong>17:30 后｜回日本桥</strong>　回酒店休息，晚餐在人形町解决。不要临时追加涩谷或新宿。</p><div class="route"><b>轻量原则</b><span>当天只有“芝公园＋东京塔”一个主题。若上午下雨，改下午或晚间登塔；全日大雨则改日本桥室内商业设施。</span><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Royal+Park+Hotel+Tokyo&destination=Zojoji+Temple&travelmode=transit" target="_blank" rel="noopener">酒店 → 增上寺</a><a href="https://en.tokyotower.co.jp/fee/" target="_blank" rel="noopener">东京塔票价时间</a></div></div></div><aside class="aside"><strong>住：日本桥</strong>主景点 1 个<br>步数目标：9,000 内</aside><nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-04">← 4/上一天</a><a href="#days">总览</a><a href="#day-2026-10-06">6/下一天 →</a></nav></article>
-<article class="day" id="day-2026-10-06" data-day="6"><div class="daydate"><b>06</b>10/6<br>周二</div><div><h3>代代木咖啡甜品线 · 媳妇想去的店集中安排</h3><p><strong>09:00—10:00｜酒店早餐与出发</strong>　睡到自然醒，不赶早。由水天宫前/人形町出发，经地铁到代代木上原或代代木公园一带；不带大件行李。</p><p><strong>10:15—11:00｜Acid Coffee Tokyo</strong>　先喝咖啡，把这一天定成慢节奏。若排队或当天未营业，改去 Fuglen Tokyo 先喝。</p><p><strong>11:10—12:00｜Asterisque</strong>　从咖啡店步行或短程地铁到代代木上原，优先买 2—3 款现场吃或带回酒店。Asterisque 周一风险高，所以安排在周二；出发前仍看官方公告。</p><p><strong>12:10—13:30｜轻午餐 / 代代木上原周边</strong>　不要再排大餐，留胃给下午甜品。可在上原、富ヶ谷附近随便找荞麦面、咖喱或轻食。</p><p><strong>13:30—15:30｜Theobroma → Fuglen → Nata de Cristiano</strong>　这三家都在富ヶ谷/代代木公园一带，按排队情况取舍：Theobroma 买巧克力，Fuglen 喝咖啡，Nata de Cristiano 买蛋挞带走。</p><p><strong>16:00—晚间｜回日本桥整理行李</strong>　回 Royal Park Hotel 休息，整理退税品、护照和第二天登机物品；晚餐留在人形町或日本桥。</p><div class="route"><b>动线原则</b><span>这条线集中在代代木上原—代代木八幡—富ヶ谷，适合 10/6 缓冲日。10/5 是周一，甜品店休息风险更高，不建议塞进东京塔那天。</span><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Royal+Park+Hotel+Tokyo&destination=Acid+Coffee+Tokyo&travelmode=transit" target="_blank" rel="noopener">酒店 → Acid Coffee</a><a href="https://www.google.com/maps/dir/?api=1&origin=Acid+Coffee+Tokyo&destination=Asterisque+Tokyo&travelmode=walking" target="_blank" rel="noopener">Acid → Asterisque</a><a href="https://www.google.com/maps/dir/?api=1&origin=Asterisque+Tokyo&destination=Mus%C3%A9e+du+Chocolat+Th%C3%A9obroma+Shibuya&travelmode=walking" target="_blank" rel="noopener">Asterisque → Theobroma</a><a href="https://www.google.com/maps/dir/?api=1&origin=Mus%C3%A9e+du+Chocolat+Th%C3%A9obroma+Shibuya&destination=Fuglen+Tokyo&travelmode=walking" target="_blank" rel="noopener">Theobroma → Fuglen</a><a href="https://www.google.com/maps/dir/?api=1&origin=Fuglen+Tokyo&destination=Nata+de+Cristiano&travelmode=walking" target="_blank" rel="noopener">Fuglen → Nata</a></div></div></div><aside class="aside"><strong>住：日本桥</strong>代代木半日线<br>傍晚整理行李</aside><nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-05">← 5/上一天</a><a href="#days">总览</a><a href="#day-2026-10-07">7/下一天 →</a></nav></article>
-<article class="day" id="day-2026-10-07" data-day="7"><div class="daydate"><b>07</b>10/7<br>周三</div><div><h3>日本桥 → T-CAT → 羽田 T3</h3><p><strong>07:30—09:15｜早餐与终检</strong>　酒店附近早餐，确认护照、钱包、退税商品和充电设备；液体与大件放入托运行李。</p><p><strong>09:30—10:00｜提前退房</strong>　完成退房后从酒店二层连廊步行到 T-CAT。现场核对羽田 T3 巴士售票和路况，不追最后一班。</p><p><strong>约 10:15—11:15｜前往羽田</strong>　优先机场巴士，酒店官方参考车程约 25 分钟，但按道路拥堵预留 60 分钟。目标 11:30 前抵达 T3。</p><p><strong>11:30—14:30｜值机与登机</strong>　办理 MU538 值机、托运、安检和退税；安检后午餐。14:30 起飞，17:20 抵达虹桥 T1。</p><div class="route"><b>铁路备选</b><span>若巴士停运或道路严重拥堵：步行至人形町站，乘都营浅草线直通/换乘京急机场线前往羽田 T3；跟随站内机场方向标识。</span><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&origin=Royal+Park+Hotel+Tokyo&destination=Tokyo+City+Air+Terminal&travelmode=walking" target="_blank" rel="noopener">酒店 → T-CAT</a><a href="https://www.tcat-hakozaki.co.jp/direct/haneda.html" target="_blank" rel="noopener">T-CAT 羽田官方</a></div></div></div><aside class="aside"><strong>MU538 · 14:30</strong>羽田 T3 → 虹桥 T1<br>目标 11:30 到机场</aside><nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-06">← 6/上一天</a><a href="#days">总览</a></nav></article>
-</div></section>
-<section id="tickets"><div class="section-head"><h2>必买票务 · 只看你要操作的</h2><p>按“现在买、临近买、当天买”排序。每项都写清入口、步骤和截止建议；完成后把确认页截图离线保存。</p></div><div class="note" style="margin-bottom:14px"><strong>当前优先级：</strong>两段踊り子已通过 KLOOK 购买并出票；接下来确认返程 T-CAT 巴士。N’EX、大室山保留到当天，东京塔等天气预报清晰后再买。</div><div class="buy-grid">
-<article class="buy-card urgent"><span class="status">两段已出票 · KLOOK</span><h3>踊り子指定席 · 东京 ⇄ 伊豆高原</h3><p><strong>去程已出票：</strong>10/2 Odoriko 5，东京 10:00 → 伊豆高原 12:04；成人 2 人，8号车 7A/7B，实付 ¥512.00。<br><strong>返程已出票：</strong>10/4 Odoriko 4，伊豆高原 12:46 → 东京 14:49；成人 2 人，1号车 14C/14D，合计 ¥512.00；东京站到达站台 8。</p><ol class="steps"><li>出发前分别打开两张 KLOOK 电子特急列车票，并保存到设备。</li><li>去程确认 8号车 7A/7B；返程确认 1号车 14C/14D，返程 D 侧通常更适合看海。</li><li>乘车当天按 App 提示向工作人员出示电子票；遇查票同时准备基础票价/特急电子票说明。</li></ol><p><strong>当前待办：</strong>把两张电子票都保存到设备，出发前再确认 KLOOK App 可离线打开。</p><div class="buy-actions"><a href="https://www.klook.com/zh-CN/rails-32/1012-japan/" target="_blank" rel="noopener">KLOOK 火车票</a><a class="alt" href="https://www.jreast.co.jp/en/multi/traininformation/odoriko/" target="_blank" rel="noopener">列车说明</a></div></article>
-<article class="buy-card"><span class="status">落地当天购买</span><h3>N’EX 指定席 · 成田 T2 → 东京</h3><p><strong>使用：</strong>10/1 入境后乘最近合适班次。返程从羽田走，不买 N’EX 往返票。</p><ol class="steps"><li>取完行李后到“空港第2ビル站”的 JR EAST 服务中心、绿色窗口或指定席售票机。</li><li>售票机选简体中文，目的地选 Tokyo，购买普通车指定席。</li><li>若用 Suica 支付基础车资，仍需确认已取得 N’EX 特急指定席部分。</li></ol><p><strong>建议时间：</strong>10/1 通关后现场买，不提前绑死班次；航班延误或通关慢也不慌。</p><div class="buy-actions"><a href="https://www.jreast.co.jp/en/multi/nex/tickets/" target="_blank" rel="noopener">官方购票说明</a><a class="alt" href="https://www.eki-net.com/jreast-train-reservation/Top/Index" target="_blank" rel="noopener">线上备选</a></div></article>
-<article class="buy-card"><span class="status">当天现场购买</span><h3>大室山登山缆车 · 往返票</h3><p><strong>使用：</strong>10/3。官方为乘车口前窗口售票，票仅限购买当日有效；10 月通常 09:00—16:00 营业，山顶末班 16:15，仍以当日运行公告为准。</p><ol class="steps"><li>早餐时先看官网 Operation Status 和风雨情况。</li><li>确认运行后再去现场，在鸟居后的乘车口前窗口购买往返票。</li><li>可用现金、信用卡、电子货币或二维码支付。</li></ol><p><strong>建议时间：</strong>不提前买；10/3 当天确认运行后现场购票。成人官方现价 ¥1,000，出发前再复核。</p><div class="buy-actions"><a href="https://omuroyama.com/index_en/information_en/" target="_blank" rel="noopener">运行与票价</a><a class="alt" href="https://omuroyama.com/enjoy/lift/" target="_blank" rel="noopener">现场购票位置</a></div></article>
-<article class="buy-card"><span class="status">天气明确后购买</span><h3>东京塔 Main Deck</h3><p><strong>使用：</strong>10/5 下午。官网可提前购买 Main Deck 电子票，减少现场排队；若天气差，也可当天在 Foot Town 1F 售票处决定。</p><ol class="steps"><li>打开官方 Tickets，选择 MAIN DECK Online Tickets。</li><li>选 2026/10/5、人数和可用时段，核对退改规则后付款。</li><li>保存二维码，入场时调高手机亮度并准备离线截图。</li></ol><p><strong>建议时间：</strong>10/2—10/4 查看东京能见度后再买；不追求固定时间可当天现场买。当前成人 Main Deck ¥1,500。</p><div class="buy-actions"><a href="https://en.tokyotower.co.jp/ticket/" target="_blank" rel="noopener">官方在线票</a><a class="alt" href="https://en.tokyotower.co.jp/fee/" target="_blank" rel="noopener">票价与营业时间</a></div></article>
-<article class="buy-card urgent"><span class="status">已开售 · 出发前锁定</span><h3>T-CAT → 羽田 T3 机场巴士</h3><p><strong>使用：</strong>10/7。官方从乘车日前 1 个月开放线上预约；该班现已进入可预约期。成人单程当前 ¥1,000，车程约 25 分钟，但需为道路拥堵留足余量。</p><ol class="steps"><li>进入官方页点 T-CAT → Haneda Airport 的 Reserve Online。</li><li>出发选 T-CAT，到达选 Haneda Airport Terminal 3。</li><li>选择能让你在 11:30 前抵达 T3 的班次，付款并保存凭证。</li><li>当天从酒店二层连廊到 T-CAT，本馆 1F 乘车。</li></ol><p><strong>建议时间：</strong>现在即可买；建议最迟 10/6 完成。若未线上购买，可在 T-CAT 1F 柜台或售票机现场买，但满员需等下一班。</p><div class="buy-actions"><a href="https://www.tcat-hakozaki.co.jp/en/airport/haneda.html" target="_blank" rel="noopener">预约与班次</a><a class="alt" href="https://www.tcat-hakozaki.co.jp/en/contact/" target="_blank" rel="noopener">购票 FAQ</a></div></article>
-<article class="buy-card"><span class="status">无需提前买</span><h3>Suica、东京地铁与伊豆短途</h3><p><strong>使用：</strong>东京地铁、JR 普通线和多数便利交通。它们不是本次需要提前锁定的票。</p><ol class="steps"><li>到日本后购买/充值 Suica，或确认手机钱包里的交通卡可用。</li><li>东京市内按次刷卡，不为省少量费用强行购买通票。</li><li>伊豆出租车、公交与酒店接驳按当天路线支付或预约。</li></ol><p><strong>建议时间：</strong>10/1 落地后处理；出发前只需准备一张可境外支付银行卡和少量现金。</p></article>
-</div></section>
-<section id="prepare"><div class="section-head"><h2>提前准备 · 一张清单完成</h2><p>只处理会影响成行的事项。价格、班次和天气会变化，页面保留决策规则，不写死未经确认的信息。</p></div><div class="ticket-grid"><article class="ticket"><h3>需要提前完成</h3><ol><li><strong>证件与入境：</strong>护照有效期、签证/入境资格、机票姓名一致；出发前填写 Visit Japan Web，并保存二维码离线截图。</li><li><strong>航班：</strong>在东航 App 复核 MU521、MU538、航站楼与行李额；起飞前一天在线值机。</li><li><strong>票务：</strong>两段踊り子已出票；继续确认返程 T-CAT 巴士。</li><li><strong>龟之井确认：</strong>核对房型对应退房时间、是否含早餐/晚餐、晚餐最晚到店时间，以及免费接驳是否需要预约。</li><li><strong>支付与通信：</strong>准备可境外支付银行卡、少量日元现金、Suica 和日本流量卡/eSIM。</li><li><strong>旅行保障：</strong>购买覆盖医疗和行程变更的旅行保险；将保单、护照与订单备份到手机离线文件。</li></ol><a href="https://www.vjw.digital.go.jp/" target="_blank" rel="noopener">Visit Japan Web ↗</a><a href="https://www.jreast.co.jp/en/multi/traininformation/odoriko/" target="_blank" rel="noopener">JR East 踊り子 ↗</a></article><div class="prep"><article><h3>出发前 30—7 天</h3><p>两段踊り子已出票，确认 T-CAT 巴士；同时确认酒店餐食/接驳、保险、eSIM 和常用 App。</p></article><article><h3>出发前 72—24 小时</h3><p>复核航班与天气；确认大室山运行公告、T-CAT 巴士、酒店地址；下载地图和订单截图。</p></article><article><h3>每日随身</h3><p>护照、手机、充电宝、银行卡、现金、交通卡、雨具与常用药。伊豆海岸穿防滑鞋，不穿新鞋。</p></article><article><h3>公开页面边界</h3><p>不上传订单号、护照、姓名、电话、房号和二维码。私人凭证只保存在本地或可信云盘。</p></article></div></div></section>
-<section id="sources"><div class="section-head"><h2>官方入口与实景照片</h2><p>照片使用仓库内本地 JPG，避免线上热链失效；文件为东京、伊豆、富士实景素材。</p></div><div class="sources"><a href="https://kamenoi-hotels.com/izukougen/" target="_blank" rel="noopener">亀之井酒店官方</a><a href="https://kamenoi-hotels.com/izukougen/access/" target="_blank" rel="noopener">官方交通/接驳</a><a href="https://www.tcat-hakozaki.co.jp/direct/haneda.html" target="_blank" rel="noopener">T-CAT → 羽田</a><a href="https://www.tokyotower.co.jp/en/" target="_blank" rel="noopener">东京塔官方</a><a href="https://omuroyama.com/" target="_blank" rel="noopener">大室山官方</a><a href="https://itospa.com/spot/detail_54001.html" target="_blank" rel="noopener">城崎海岸官方观光</a><a href="https://www.enoden.co.jp/en/" target="_blank" rel="noopener">江之电官方（备选）</a><a href="https://www.izukyu.co.jp/english/" target="_blank" rel="noopener">伊豆急行官方</a><a href="https://www.jreast.co.jp/multi/en/" target="_blank" rel="noopener">JR East 官方</a><a href="https://www.theobroma.co.jp/" target="_blank" rel="noopener">Theobroma</a><a href="https://www.instagram.com/asterisque_uehara/" target="_blank" rel="noopener">Asterisque</a><a href="https://fuglencoffee.jp/" target="_blank" rel="noopener">Fuglen Tokyo</a><a href="https://www.nata-de-cristiano.com/" target="_blank" rel="noopener">Nata de Cristiano</a></div><div class="note" style="margin-top:18px">版本记录：2026/9/15 更新。已把媳妇想去的 Theobroma、Asterisque、Acid Coffee Tokyo、Fuglen Tokyo、Nata de Cristiano 集中安排到 10/6 代代木咖啡甜品线。</div></section>
+
+<!-- ===================== 概览 ===================== -->
+<section id="overview">
+<div class="section-head"><h2>行程概览 · 航班与落脚点</h2><p>七天六晚，三段住宿。下面是两段航班的准确信息与四个关键地点的地图入口。</p></div>
+<div class="cards two">
+<article class="card">
+<span class="label">2026/10/01 · 去程</span>
+<h3>MU521 · 上海浦东 T1 → 成田 T2</h3>
+<p><b>11:45 — 15:55</b>（当地时刻）</p>
+<p class="small">落地后乘 JR 特急 N’EX 到东京站，换 JR 一站到神田站，西口步行约 5 分钟到酒店。<b>已定，不坐出租车。</b></p>
+<div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Shanghai+Pudong+Airport+Terminal+1" target="_blank" rel="noopener">浦东 T1</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Narita+Airport+Terminal+2" target="_blank" rel="noopener">成田 T2</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Narita+Airport+Terminal+2&amp;destination=Hotel+Villa+Fontaine+Tokyo+Otemachi&amp;travelmode=transit" target="_blank" rel="noopener">成田 → 酒店</a></div>
+</article>
+<article class="card">
+<span class="label">2026/10/07 · 回程</span>
+<h3>MU538 · 东京羽田 T3 → 上海</h3>
+<p><b>14:30 — 17:20</b>（当地时刻）</p>
+<p class="small">建议 <b>11:30 前抵达羽田 T3</b>。从酒店走二层连廊到 T-CAT，换机场巴士约 25 分钟。</p>
+<div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Haneda+Airport+Terminal+3" target="_blank" rel="noopener">羽田 T3</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+City+Air+Terminal&amp;destination=Haneda+Airport+Terminal+3&amp;travelmode=transit" target="_blank" rel="noopener">T-CAT → 羽田</a><a href="https://www.tcat-hakozaki.co.jp/en/airport/haneda.html" target="_blank" rel="noopener" class="doc">巴士官方</a></div>
+</article>
+</div>
+<div class="cards three" style="margin-top:12px">
+<article class="card"><span class="label">10/1—10/2</span><h3>东京大手町</h3><p class="small">Hotel Villa Fontaine Tokyo-Otemachi ｜ 1 晚 · 无餐。神田站西口步行约 5 分钟。</p></article>
+<article class="card hot"><span class="label">10/2—10/4</span><h3>伊豆高原</h3><p class="small">亀の井ホテル 伊豆高原 ｜ 2 晚。伊豆高原站乘免费接驳约 5 分钟（14:30）。</p></article>
+<article class="card"><span class="label">10/4—10/7</span><h3>东京日本桥</h3><p class="small">Royal Park Hotel Tokyo Nihonbashi ｜ 3 晚 · 无餐。二层连廊直通 T-CAT。</p></article>
+</div>
+</section>
+
+<!-- ===================== 天气 ===================== -->
+<section id="weather">
+<div class="section-head"><h2>天气与备选预案</h2><p>下方为 9/29 抓取的集合预报（会变），出发前一天以手机天气为准。真要下雨就按“备选”走，不硬冲。</p></div>
+<div class="cards three">
+<article class="card"><span class="label">10/1—10/4 · 伊豆段</span><h3>最需要的两天是晴/多云</h3><p class="small">东京 10/1 中雨 23/18℃ → 10/2 晴 23/14℃ → 10/3 多云 21/15℃ → 10/4 小雨 23/17℃。</p><p class="small">伊豆 10/2 多云 24/16℃、10/3 多云 22/16℃，正好压在依赖天气的大室山与城崎海岸。</p></article>
+<article class="card"><span class="label">10/5—10/7 · 东京段</span><h3>转雨，最低 14—16℃</h3><p class="small">10/5 雨转阴 23/16℃、10/6 雨转阴 20/15℃、10/7 雨 21/16℃。带防风外套和伞。</p></article>
+<article class="card hot"><span class="label">备选规则</span><h3>怎么改</h3><p class="small"><b>大室山：</b>大风/下雨/缆车停运 → 改伊豆泰迪熊博物馆或回酒店泡汤。<br><b>城崎海岸：</b>下雨只走短段或直接取消。<br><b>东京塔：</b>能见度差就改期或跳过，不硬上。<br><b>10/7：</b>雨天走二层连廊 + 巴士，多留 15—30 分钟缓冲。</p></article>
+</div>
+</section>
+
+<!-- ===================== 酒店 ===================== -->
+<section id="hotels">
+<div class="section-head"><h2>酒店导航 · 三段已确认住宿</h2><p>点地图直接跳 Google Maps；伊豆接驳与官方入口也放在对应卡片里。</p></div>
+<div class="cards three">
+<article class="card">
+<span class="label">10/1 入住 · 10/2 退房</span>
+<h3>Hotel Villa Fontaine Tokyo-Otemachi</h3>
+<p><b>东京大手町 · 1 晚 · 无餐</b></p>
+<p class="small">神田站西口步行约 5—8 分钟。首晚落地后走「N’EX → 东京站 → JR 一站神田」。</p>
+<div class="maps"><a class="pri" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+Villa+Fontaine+Tokyo-Otemachi" target="_blank" rel="noopener">地图</a><a class="doc" href="https://www.hvf.jp/eng/otemachi/" target="_blank" rel="noopener">酒店官网</a></div>
+</article>
+<article class="card hot">
+<span class="label">10/2 入住 · 10/4 退房</span>
+<h3>亀の井ホテル 伊豆高原</h3>
+<p><b>KAMENOI HOTEL IZUKOGEN · 2 晚</b></p>
+<p class="small">伊豆高原站樱并木口乘免费接驳约 5 分钟；站→酒店 14:30、15:00、15:30、16:20（以官网为准）。含早餐，晚餐自行安排。</p>
+<div class="maps"><a class="pri" href="https://www.google.com/maps/search/?api=1&amp;query=KAMENOI+HOTEL+IZUKOGEN" target="_blank" rel="noopener">地图</a><a class="doc" href="https://kamenoi-hotels.com/izukougen/" target="_blank" rel="noopener">酒店官网</a><a class="doc" href="https://kamenoi-hotels.com/izukougen/access/" target="_blank" rel="noopener">接驳时刻</a></div>
+</article>
+<article class="card">
+<span class="label">10/4 入住 · 10/7 退房</span>
+<h3>Royal Park Hotel Tokyo Nihonbashi</h3>
+<p><b>东京日本桥 · 3 晚 · 无餐</b></p>
+<p class="small">水天宫前站直连，二层连廊通往 T-CAT；返程去羽田最方便。</p>
+<div class="maps"><a class="pri" href="https://www.google.com/maps/search/?api=1&amp;query=Royal+Park+Hotel+Tokyo+Nihonbashi" target="_blank" rel="noopener">地图</a><a class="doc" href="https://www.rph.co.jp/en/" target="_blank" rel="noopener">酒店官网</a><a class="doc" href="https://www.rph.co.jp/en/destinations-activities/location/" target="_blank" rel="noopener">官方交通</a></div>
+</article>
+</div>
+</section>
+
+<!-- ===================== 交通 ===================== -->
+<section id="transport">
+<div class="section-head"><h2>全程交通 · 一键导航</h2><p>跨城段已锁定指定席；伊豆当地以出租车为主；东京市内以地铁为主，带箱时不勉强换乘。</p></div>
+<div class="cards two">
+<article class="card">
+<span class="label">10/1 · 机场进城</span>
+<h3>成田 T2 → 东京站 → 神田站</h3>
+<p><b>JR 特急 N’EX 指定席 + JR 一站</b></p>
+<p class="small">成田没有新干线。N’EX 到东京站后，保持在 JR 付费区内换山手线/京滨东北线，1 站到神田，西口步行 5 分钟到酒店。</p>
+<div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Narita+Airport+Terminal+2&amp;destination=Narita+Airport+Terminal+2+3+Station&amp;travelmode=walking" target="_blank" rel="noopener">T2 → 空港第2ビル站</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Narita+Airport+Terminal+2+3+Station&amp;destination=Tokyo+Station&amp;travelmode=transit" target="_blank" rel="noopener">空港第2ビル → 东京站</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Kanda+Station+Tokyo&amp;travelmode=transit" target="_blank" rel="noopener">东京站 → 神田站</a><a class="doc" href="https://www.jreast.co.jp/en/multi/nex/tickets/" target="_blank" rel="noopener">N’EX 购票说明</a></div>
+</article>
+<article class="card hot">
+<span class="label">10/2、10/4 · 跨城</span>
+<h3>东京 ⇄ 伊豆高原</h3>
+<p><b>特急踊り子 · 两段均已出票</b></p>
+<p class="small">去程 Odoriko 5：东京 10:00 → 伊豆高原 12:04（8 号车 7A/7B）。返程 Odoriko 4：伊豆高原 12:46 → 东京 14:49（1 号车 14C/14D，到站台 8）。乘车时在 KLOOK App 打开电子票并提前保存到设备。</p>
+<div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanda+Station+Tokyo&amp;destination=Tokyo+Station&amp;travelmode=transit" target="_blank" rel="noopener">神田 → 东京站</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Izu-Kogen+Station&amp;destination=Tokyo+Station&amp;travelmode=transit" target="_blank" rel="noopener">伊豆高原 → 东京站</a><a class="doc" href="https://www.jreast.co.jp/en/multi/traininformation/odoriko/" target="_blank" rel="noopener">踊り子官方</a><a class="doc" href="https://www.izukyu.co.jp/english/" target="_blank" rel="noopener">伊豆急行</a></div>
+</article>
+<article class="card">
+<span class="label">10/3 · 伊豆当地</span>
+<h3>酒店 → 大室山 → 城崎海岸</h3>
+<p><b>出租车为主，公交为备</b></p>
+<p class="small">酒店到大室山约 10 分钟车程；大室山到门胁吊桥建议出租车，减少等车与长距离步行（当地公交约每小时一班）。</p>
+<div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=KAMENOI+HOTEL+IZUKOGEN&amp;destination=Mount+Omuro&amp;travelmode=driving" target="_blank" rel="noopener">酒店 → 大室山</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Mount+Omuro&amp;destination=Jogasaki+Coast&amp;travelmode=driving" target="_blank" rel="noopener">大室山 → 城崎海岸</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Jogasaki+Coast&amp;destination=KAMENOI+HOTEL+IZUKOGEN&amp;travelmode=driving" target="_blank" rel="noopener">城崎海岸 → 酒店</a></div>
+</article>
+<article class="card">
+<span class="label">10/4—10/6 · 东京市内</span>
+<h3>水天宫前 / 人形町为基点</h3>
+<p><b>地铁 + 短程出租车</b></p>
+<p class="small">去东京塔由人形町乘日比谷线到神谷町；日本桥区域以步行为主。带箱转场直接打车。</p>
+<div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;travelmode=transit" target="_blank" rel="noopener">东京站 → 酒店</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;travelmode=driving" target="_blank" rel="noopener">东京站 → 酒店（打车）</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Tokyo+Tower&amp;travelmode=transit" target="_blank" rel="noopener">酒店 → 东京塔</a></div>
+</article>
+<article class="card">
+<span class="label">10/7 · 机场返程</span>
+<h3>T-CAT → 羽田 T3</h3>
+<p><b>首选机场巴士 · 成人 ¥1,000 · 约 25 分钟</b></p>
+<p class="small">酒店二层连廊步行到 T-CAT，本馆 1F 乘车。建议提前线上预约；遇停运或严重拥堵，改人形町乘都营浅草线换京急机场线。</p>
+<div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Tokyo+City+Air+Terminal&amp;travelmode=walking" target="_blank" rel="noopener">酒店 → T-CAT（步行）</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+City+Air+Terminal&amp;destination=Haneda+Airport+Terminal+3&amp;travelmode=transit" target="_blank" rel="noopener">T-CAT → 羽田 T3</a><a class="doc" href="https://www.tcat-hakozaki.co.jp/en/airport/haneda.html" target="_blank" rel="noopener">巴士官方</a></div>
+</article>
+</div>
+</section>
+
+<!-- ===================== 日程 ===================== -->
+<section id="days">
+<div class="section-head"><h2>7 日执行台</h2><p>点日期只看当天；每一天都有独立深链（<code>#day-2026-10-01</code>），可收藏、可分享给同行的人。</p></div>
+<div class="daybar"><div class="chips" role="tablist" aria-label="按日期筛选">
+<a class="chip active" role="tab" aria-selected="true" href="#days">总览</a>
+<a class="chip" role="tab" aria-selected="false" href="#day-2026-10-01">10/1 四</a>
+<a class="chip" role="tab" aria-selected="false" href="#day-2026-10-02">10/2 五</a>
+<a class="chip" role="tab" aria-selected="false" href="#day-2026-10-03">10/3 六</a>
+<a class="chip" role="tab" aria-selected="false" href="#day-2026-10-04">10/4 日</a>
+<a class="chip" role="tab" aria-selected="false" href="#day-2026-10-05">10/5 一</a>
+<a class="chip" role="tab" aria-selected="false" href="#day-2026-10-06">10/6 二</a>
+<a class="chip" role="tab" aria-selected="false" href="#day-2026-10-07">10/7 三</a>
+</div></div>
+
+<!-- ===== Day 1 ===== -->
+<article class="day" id="day-2026-10-01" data-day="1">
+<div class="dayhead"><div class="datedot"><b>01</b><span>10/1 周四</span></div><div><h3>上海 → 成田 T2 → 东京大手町</h3><p class="sub">MU521 11:45 → 15:55 · 住大手町 1 晚</p></div></div>
+<h4>当天重点</h4>
+<ul class="bullets">
+<li>去程：MU521，上海浦东 T1 11:45 → 东京成田 T2 15:55。</li>
+<li>进城固定方案：<b>JR 特急 N’EX</b> 到东京站，再换 JR 一站到神田站，西口步行约 5 分钟到酒店。<b>已定，不坐出租车。</b></li>
+<li>当晚目标：顺利进城、入住、吃饭、<b>在便利店买齐 10/2 早餐</b>、早点休息。</li>
+</ul>
+<h4>执行顺序</h4>
+<div class="steps">
+<div class="step"><div class="t">08:30—09:00</div><div class="c"><p>抵达浦东 T1 值机托运；确认护照、签证、Visit Japan Web 二维码。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Shanghai+Pudong+Airport+Terminal+1" target="_blank" rel="noopener">浦东 T1</a></div></div></div>
+<div class="step"><div class="t">11:45—15:55</div><div class="c"><p>MU521 飞往成田 T2。抵达后的时间均为日本时间预估，随入境进度顺延。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Narita+Airport+Terminal+2" target="_blank" rel="noopener">成田 T2</a></div></div></div>
+<div class="step"><div class="t">15:55—17:30</div><div class="c"><p>入境、取行李、过海关、开通手机网络；循机场「鉄道／Train／JR」指示下到地下铁路层。不需要去 T1。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Narita+Airport+Terminal+2&amp;destination=Narita+Airport+Terminal+2+3+Station&amp;travelmode=walking" target="_blank" rel="noopener">T2 → 空港第2ビル站（步行）</a></div></div></div>
+<div class="step"><div class="t">约 17:30</div><div class="c"><p>在 JR 窗口或指定席售票机买 N’EX 普通车指定席，告诉工作人员「两位成人，N’EX 到东京站，接着 JR 去神田」。<b>不能只刷 Suica 上 N’EX</b>；不买往返票（回程从羽田走）；不预先锁死班次。</p></div></div>
+<div class="step"><div class="t">约 18:00—19:00</div><div class="c"><p>空港第2ビル站 → 东京站，乘车约 1 小时。Google Maps 可能列出其他列车，<b>认准 N’EX</b>。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Narita+Airport+Terminal+2+3+Station&amp;destination=Tokyo+Station&amp;travelmode=transit" target="_blank" rel="noopener">空港第2ビル → 东京站</a></div></div></div>
+<div class="step"><div class="t">东京站换乘</div><div class="c"><p>N’EX 到达地下站台后，<b>保持在 JR 付费区内</b>，循「山手線／京浜東北線」标识及电梯前往地面站台，预留 15—25 分钟。<b>不要先从八重洲口出站，也不要进新干线换乘闸机。</b>乘山手线上野方向或停神田的京滨东北线，1 站约 2 分钟。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Kanda+Station+Tokyo&amp;travelmode=transit" target="_blank" rel="noopener">东京站 → 神田站</a></div></div></div>
+<div class="step"><div class="t">约 19:30—20:00</div><div class="c"><p>神田站西口步行 5—8 分钟到酒店，入住 Hotel Villa Fontaine Tokyo-Otemachi。以实际抵达为准，<b>不为赶晚餐追车</b>。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanda+Station+West+Exit+Tokyo&amp;destination=Hotel+Villa+Fontaine+Tokyo+Otemachi+1-8-8+Uchikanda&amp;travelmode=walking" target="_blank" rel="noopener">神田站西口 → 酒店（步行）</a></div></div></div>
+<div class="step"><div class="t">入住后</div><div class="c"><p>先放行李，再按饥饿程度和排队情况决定晚餐；饭后顺路去便利店买齐两人 10/2 的早餐和饮水，再回酒店休息。</p></div></div>
+</div>
+<h4>晚餐候选 · 当天再定，未预约</h4>
+<div class="cards three">
+<article class="subcard"><h5>肉と日本酒 いぶり 神田西口店</h5><p>居酒屋、肉料理 · 16:00—23:30（L.O. 22:30）· <b>周日休</b></p><p>人均约 ¥3,000—4,000</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E8%82%89%E3%81%A8%E6%97%A5%E6%9C%AC%E9%85%92+%E3%81%84%E3%81%B6%E3%82%8A+%E7%A5%9E%E7%94%B0%E8%A5%BF%E5%8F%A3%E5%BA%97+%E5%86%85%E7%A5%9E%E7%94%B03-12-10" target="_blank" rel="noopener">地图</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi&amp;destination=%E8%82%89%E3%81%A8%E6%97%A5%E6%9C%AC%E9%85%92+%E3%81%84%E3%81%B6%E3%82%8A+%E7%A5%9E%E7%94%B0%E8%A5%BF%E5%8F%A3%E5%BA%97&amp;travelmode=walking" target="_blank" rel="noopener">从酒店步行</a></div></article>
+<article class="subcard"><h5>神田ラーメン わいず 神田本店</h5><p>家系拉面 · 周一至周四 10:30—24:00 · <b>周日休</b></p><p>人均约 ¥1,000—1,500，排队太久就换店</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E7%A5%9E%E7%94%B0%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3+%E3%82%8F%E3%81%84%E3%81%9A+%E5%86%85%E7%A5%9E%E7%94%B03-9-6" target="_blank" rel="noopener">地图</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi&amp;destination=%E7%A5%9E%E7%94%B0%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3+%E3%82%8F%E3%81%84%E3%81%9A+%E7%A5%9E%E7%94%B0%E6%9C%AC%E5%BA%97&amp;travelmode=walking" target="_blank" rel="noopener">从酒店步行</a></div></article>
+<article class="subcard"><h5>神田まつや</h5><p>老铺荞麦面 · 平日 11:00—20:30（L.O. 20:00）· <b>周日休</b></p><p>只在到店较早且仍接客时考虑，不作为晚到兜底</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E7%A5%9E%E7%94%B0%E3%81%BE%E3%81%A4%E3%82%84+%E7%A5%9E%E7%94%B0%E9%A0%88%E7%94%B0%E7%94%BA1-13" target="_blank" rel="noopener">地图</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi&amp;destination=%E7%A5%9E%E7%94%B0%E3%81%BE%E3%81%A4%E3%82%84&amp;travelmode=walking" target="_blank" rel="noopener">从酒店步行</a></div></article>
+</div>
+<h4>便利店 · 采购 10/2 早餐</h4>
+<div class="cards two">
+<article class="subcard"><h5>FamilyMart 内神田鎌倉橋店</h5><p>内神田 1-6-6 · 资料列为 24 小时，以店铺为准</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi+1-8-8+Uchikanda&amp;destination=%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88+%E5%86%85%E7%A5%9E%E7%94%B0%E9%8E%8C%E5%80%89%E6%A9%8B%E5%BA%97&amp;travelmode=walking" target="_blank" rel="noopener">从酒店步行</a></div></article>
+<article class="subcard"><h5>7-Eleven 内神田1丁目店</h5><p>内神田 1-9-13 · 附近备选</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi+1-8-8+Uchikanda&amp;destination=%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3+%E5%86%85%E7%A5%9E%E7%94%B01%E4%B8%81%E7%9B%AE%E5%BA%97&amp;travelmode=walking" target="_blank" rel="noopener">从酒店步行</a></div></article>
+</div>
+<h4>快捷导航</h4>
+<div class="maps">
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Narita+Airport+Terminal+2&amp;destination=Airport+Terminal+2+Station&amp;travelmode=walking" target="_blank" rel="noopener">成田 T2 → 空港第2ビル駅</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Airport+Terminal+2+Station&amp;destination=Tokyo+Station&amp;travelmode=transit" target="_blank" rel="noopener">空港第2ビル駅 → 东京站</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Kanda+Station+West+Exit&amp;travelmode=transit" target="_blank" rel="noopener">东京站 → 神田站（1 站）</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanda+Station+West+Exit&amp;destination=Hotel+Villa+Fontaine+Tokyo-Otemachi&amp;travelmode=walking" target="_blank" rel="noopener">神田站西口 → 酒店</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+Villa+Fontaine+Tokyo-Otemachi" target="_blank" rel="noopener">酒店地图</a>
+<a class="doc" href="https://www.jreast.co.jp/en/multi/nex/tickets/" target="_blank" rel="noopener">N’EX 购票说明</a>
+</div>
+<div class="note"><b>次日提醒：</b>10/2 按 08:30 退房、08:40 出发；早餐用前一晚买好的食品。Odoriko 5 已出票：东京 10:00 → 伊豆高原 12:04，8 号车 7A／7B。</div>
+<nav class="day-nav" aria-label="日期导航"><a href="#days">全部日程</a><a href="#day-2026-10-02">10/2 下一天 →</a></nav>
+</article>
+
+<!-- ===== Day 2 ===== -->
+<article class="day" id="day-2026-10-02" data-day="2">
+<div class="dayhead"><div class="datedot"><b>02</b><span>10/2 周五</span></div><div><h3>东京站 → 伊豆高原 · Odoriko 5</h3><p class="sub">东京 10:00 → 伊豆高原 12:04 · 住龟之井 2 晚</p></div></div>
+<h4>当天重点</h4>
+<ul class="bullets">
+<li>车次：Odoriko 5，东京站 10:00 → 伊豆高原 12:04，KLOOK 已出票，成人 2 张指定席。</li>
+<li>座位：<b>8 号车 7A／7B</b>。A 侧通常是海侧，适合看伊豆海岸。</li>
+<li>执行：步行到神田站 → JR 一站到东京站（比从大手町直接去更顺）。</li>
+<li>到达后：先吃午饭、确认接驳点，<b>14:30 乘亀の井免费接驳</b>。</li>
+</ul>
+<h4>执行顺序</h4>
+<div class="steps">
+<div class="step"><div class="t">08:30</div><div class="c"><p>退房，确认 KLOOK 电子特急票、护照、手机电量、行李。</p></div></div>
+<div class="step"><div class="t">08:40</div><div class="c"><p>酒店出发，步行到 JR 神田站西口，约 5—8 分钟。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi&amp;destination=Kanda+Station+West+Exit&travelmode=walking" target="_blank" rel="noopener">酒店 → 神田站西口</a></div></div></div>
+<div class="step"><div class="t">08:50—09:05</div><div class="c"><p>刷 Suica 进站，乘山手线、京滨东北线或中央线快速任一「东京方向」列车，神田 → 东京仅 1 站。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanda+Station+Tokyo&amp;destination=Tokyo+Station&travelmode=transit" target="_blank" rel="noopener">神田站 → 东京站</a></div></div></div>
+<div class="step"><div class="t">09:05—09:20</div><div class="c"><p>抵达东京站后跟随「东海道线 / Limited Express Odoriko」标识；实际站台通常在临近发车前显示。</p></div></div>
+<div class="step"><div class="t">09:20—09:45</div><div class="c"><p>买便当和饮料，提前到站台等车。主推 <b>駅弁屋 祭</b>（改札内 1F 中央通路・グランスタ内，5:30—23:00，约 200 种）；预算有限可在京葉ストリートエリア买千元以下便当（塚田農場鸡南蛮 ¥980、魚力海鲜寿司 ¥990 等）。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E9%A7%85%E5%BC%81%E5%B1%8B+%E7%A5%AD+%E6%9D%B1%E4%BA%AC%E9%A7%85" target="_blank" rel="noopener">駅弁屋 祭（东京站）</a></div></div></div>
+<div class="step"><div class="t">10:00—12:04</div><div class="c"><p>乘 Odoriko 5 到伊豆高原，8 号车 7A／7B。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Izu-Kogen+Station&travelmode=transit" target="_blank" rel="noopener">东京站 → 伊豆高原站</a></div></div></div>
+<div class="step"><div class="t">12:04—13:30</div><div class="c"><p>抵达伊豆高原站，先确认樱并木口／北口方向和酒店接驳点；车站周边吃午饭。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Izu-Kogen+Station" target="_blank" rel="noopener">伊豆高原站</a></div></div></div>
+<div class="step"><div class="t">13:30—14:15</div><div class="c"><p>轻松等车，必要时使用车站寄存柜。</p></div></div>
+<div class="step"><div class="t">14:30</div><div class="c"><p>乘亀の井ホテル 伊豆高原免费接驳，约 5 分钟到酒店。15:00 后入住、泡汤、休息。</p><div class="maps"><a class="doc" href="https://kamenoi-hotels.com/izukougen/access/" target="_blank" rel="noopener">接驳时刻（官方）</a></div></div></div>
+</div>
+<h4>伊豆高原站周边午餐候选</h4>
+<div class="cards three">
+<article class="subcard"><h5>本家鮪屋</h5><p>鲔鱼与地鱼料理、寿司 · 步行约 7 分钟 · 11:30—15:30（L.O. 14:45）</p><p>人均午餐约 ¥2,000—2,999 · <b>周三休</b> · 评分 4.4</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E6%9C%AC%E5%AE%B6%E9%AE%AA%E5%B1%8B+%E4%BC%8A%E6%9D%B1%E5%B8%82%E5%85%AB%E5%B9%A1%E9%87%8E1069-4" target="_blank" rel="noopener">地图</a><a class="doc" href="https://honkemaguroya.com/" target="_blank" rel="noopener">官网</a></div></article>
+<article class="subcard"><h5>回転寿司 花まる 伊豆高原店</h5><p>回转寿司 · 伊豆高原站步行约 8 分钟</p><p>排队可见机行事，适合临时决定</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%9B%9E%E8%BB%A2%E5%AF%BF%E5%8F%B8+%E8%8A%B1%E3%81%BE%E3%82%8B+%E4%BC%8A%E8%B1%86%E9%AB%98%E5%8E%9F%E5%BA%97" target="_blank" rel="noopener">地图</a></div></article>
+<article class="subcard"><h5>其他备选</h5><p>食事処右近（步行约 10 分钟，和食定食/拉面）</p><p>ぐり茶の杉山 伊豆高原店（甜点，步行约 18 分钟）</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E9%A3%9F%E4%BA%8B%E5%87%A6%E5%8F%B3%E8%BF%91+%E4%BC%8A%E8%B1%86%E9%AB%98%E5%8E%9F" target="_blank" rel="noopener">右近</a><a href="https://www.google.com/maps/search/?api=1&amp;query=%E3%81%90%E3%82%8A%E8%8C%B6%E3%81%AE%E6%9D%89%E5%B1%B1+%E4%BC%8A%E8%B1%86%E9%AB%98%E5%8E%9F%E5%BA%97" target="_blank" rel="noopener">ぐり茶の杉山</a></div></article>
+</div>
+<h4>快捷导航</h4>
+<div class="maps">
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi&amp;destination=Kanda+Station+West+Exit&travelmode=walking" target="_blank" rel="noopener">酒店 → 神田站西口（步行）</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanda+Station+Tokyo&amp;destination=Tokyo+Station&travelmode=transit" target="_blank" rel="noopener">神田站 → 东京站</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Villa+Fontaine+Tokyo+Otemachi&amp;destination=Tokyo+Station&travelmode=transit" target="_blank" rel="noopener">酒店 → 东京站（全程）</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+Station" target="_blank" rel="noopener">东京站地图</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=KAMENOI+HOTEL+IZUKOGEN" target="_blank" rel="noopener">龟之井酒店地图</a>
+<a class="doc" href="https://kamenoi-hotels.com/izukougen/access/" target="_blank" rel="noopener">接驳时刻</a>
+</div>
+<div class="note"><b>次日提醒：</b>10/3 早晨先看天气和大室山缆车运行状态。风大、下雨或能见度差时，不要硬冲两个景点。</div>
+<nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-01">← 10/1</a><a href="#day-2026-10-03">10/3 下一天 →</a></nav>
+</article>
+
+<!-- ===== Day 3 ===== -->
+<article class="day" id="day-2026-10-03" data-day="3">
+<div class="dayhead"><div class="datedot"><b>03</b><span>10/3 周六</span></div><div><h3>大室山 + 城崎海岸 · 伊豆自然日</h3><p class="sub">出租车为主 · 缆车票当天买</p></div></div>
+<h4>当天重点</h4>
+<ul class="bullets">
+<li>主题：天气好就「大室山 + 城崎海岸」；天气一般就二选一，优先大室山或改酒店休息。</li>
+<li>伊豆当地不强求公交衔接，<b>出租车优先</b>，节省体力和时间（当地公交约每小时一班）。</li>
+<li>大室山缆车票当天买，运行受天气影响大；成人往返 ¥1,000，10 月通常 09:00—16:00，山顶末班 16:15。</li>
+</ul>
+<h4>执行顺序</h4>
+<div class="steps">
+<div class="step"><div class="t">08:00—09:00</div><div class="c"><p>早餐，确认大室山 Operation Status、风速、降雨和能见度。</p><div class="maps"><a class="doc" href="https://omuroyama.com/index_en/information_en/" target="_blank" rel="noopener">大室山运行与票价</a></div></div></div>
+<div class="step"><div class="t">09:00—09:30</div><div class="c"><p>从酒店出发，出租车到大室山（约 10 分钟）。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=KAMENOI+HOTEL+IZUKOGEN&amp;destination=Mount+Omuro&travelmode=driving" target="_blank" rel="noopener">酒店 → 大室山</a></div></div></div>
+<div class="step"><div class="t">09:30—11:30</div><div class="c"><p>大室山缆车上山、山顶环形步道；风大则缩短停留。乘车口前窗口购票，可用现金/信用卡/电子货币/二维码。</p></div></div>
+<div class="step"><div class="t">11:30—12:30</div><div class="c"><p>午餐或咖啡休息。</p></div></div>
+<div class="step"><div class="t">12:30—15:30</div><div class="c"><p>前往城崎海岸、门胁吊桥；若天气变差，改为只走城崎海岸短段或直接回酒店。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Mount+Omuro&amp;destination=Jogasaki+Coast&travelmode=driving" target="_blank" rel="noopener">大室山 → 城崎海岸</a></div></div></div>
+<div class="step"><div class="t">16:00 后</div><div class="c"><p>返回酒店，泡汤、休息。晚餐在酒店周边轻松安排（本家鮪屋等，见 10/2 列表）。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Jogasaki+Coast&amp;destination=KAMENOI+HOTEL+IZUKOGEN&travelmode=driving" target="_blank" rel="noopener">城崎海岸 → 酒店</a></div></div></div>
+</div>
+<h4>大室山一带午餐候选</h4>
+<div class="cards two">
+<article class="subcard"><h5>おおむろ軽食堂</h5><p>大室山缆车乘车处 1F（大室山リフト館）· 每日 10:00—16:00（L.O. 15:30）</p><p>人均 ¥1,000—1,999 · <b>缆车停运时休息</b> · 不可预约 · 全席禁烟</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E3%81%8A%E3%81%8A%E3%82%80%E3%82%8D%E8%BB%BD%E9%A3%9F%E5%A0%82+%E5%A4%A7%E5%AE%A4%E5%B1%B1" target="_blank" rel="noopener">地图</a><a class="doc" href="https://ohmuro-lunche.izu-kukan.com/" target="_blank" rel="noopener">官网</a></div></article>
+<article class="subcard"><h5>雨天备选</h5><p>伊豆泰迪熊博物馆（伊豆高原站一带）· 或直接回酒店泡汤</p><p>缆车停运 / 风雨大时使用</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E4%BC%8A%E8%B1%86%E3%83%86%E3%83%87%E3%82%A3%E3%83%99%E3%82%A2%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0" target="_blank" rel="noopener">泰迪熊博物馆</a></div></article>
+</div>
+<h4>快捷导航</h4>
+<div class="maps">
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=KAMENOI+HOTEL+IZUKOGEN&amp;destination=Mount+Omuro&travelmode=driving" target="_blank" rel="noopener">酒店 → 大室山（车）</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Mount+Omuro&amp;destination=Jogasaki+Coast&travelmode=driving" target="_blank" rel="noopener">大室山 → 城崎海岸（车）</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Jogasaki+Coast&amp;destination=KAMENOI+HOTEL+IZUKOGEN&travelmode=driving" target="_blank" rel="noopener">城崎海岸 → 酒店（车）</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Kadowaki+Suspension+Bridge&travelmode=walking" target="_blank" rel="noopener">门胁吊桥</a>
+<a class="doc" href="https://omuroyama.com/index_en/information_en/" target="_blank" rel="noopener">大室山官网</a>
+</div>
+<div class="note"><b>次日提醒：</b>10/4 已买 KLOOK Odoriko 4 返程票。前一晚确认退房时间、酒店到伊豆高原站的方式，以及返程电子票出票状态。</div>
+<nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-02">← 10/2</a><a href="#day-2026-10-04">10/4 下一天 →</a></nav>
+</article>
+
+<!-- ===== Day 4 ===== -->
+<article class="day" id="day-2026-10-04" data-day="4">
+<div class="dayhead"><div class="datedot"><b>04</b><span>10/4 周日</span></div><div><h3>伊豆高原 → 东京日本桥</h3><p class="sub">Odoriko 4 12:46 → 东京 14:49 · 住日本桥 3 晚</p></div></div>
+<h4>当天重点</h4>
+<ul class="bullets">
+<li>上午退房返回伊豆高原站；不排晨间景点。</li>
+<li>KLOOK 已出票 Odoriko 4：伊豆高原 12:46 → 东京 14:49，成人 2 张，座位 <b>1 号车 14C／14D</b>，东京站到达站台 8。</li>
+<li>下午入住 Royal Park Hotel Tokyo Nihonbashi；晚上只在人形町／日本桥慢走。</li>
+</ul>
+<h4>执行顺序</h4>
+<div class="steps">
+<div class="step"><div class="t">08:00—10:30</div><div class="c"><p>早餐、收拾行李、退房。</p></div></div>
+<div class="step"><div class="t">10:30—12:20</div><div class="c"><p>酒店接驳或出租车到伊豆高原站；12:20 前到站，预留买饮料、确认站台和打开 KLOOK 电子票的时间。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=KAMENOI+HOTEL+IZUKOGEN&amp;destination=Izu-Kogen+Station&travelmode=driving" target="_blank" rel="noopener">酒店 → 伊豆高原站</a></div></div></div>
+<div class="step"><div class="t">12:46—14:49</div><div class="c"><p>乘 Odoriko 4 到东京站。1 号车 14C／14D。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Izu-Kogen+Station&amp;destination=Tokyo+Station&travelmode=transit" target="_blank" rel="noopener">伊豆高原 → 东京站</a></div></div></div>
+<div class="step"><div class="t">15:00—16:00</div><div class="c"><p>东京站 → 酒店，<b>两种方案并列，现场按行李和体力选</b>：<br><b>方案 A｜打车：</b>站内打车直达，约 10—15 分钟，行李友好。<br><b>方案 B｜地铁：</b>东京站乘地铁到水天宫前／人形町，出站步行数分钟。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Royal+Park+Hotel+Tokyo+Nihonbashi&travelmode=driving" target="_blank" rel="noopener">方案 A 打车</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Royal+Park+Hotel+Tokyo+Nihonbashi&travelmode=transit" target="_blank" rel="noopener">方案 B 地铁</a></div></div></div>
+<div class="step"><div class="t">15:00 后</div><div class="c"><p>入住 Royal Park Hotel Tokyo Nihonbashi；下午／晚上人形町、日本桥周边散步，便利店补给，整理后半程行李。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Royal+Park+Hotel+Tokyo+Nihonbashi" target="_blank" rel="noopener">酒店地图</a><a href="https://www.google.com/maps/search/?api=1&amp;query=%E4%BA%BA%E5%BD%A2%E7%94%BA%E9%A3%9F%E4%BA%8B" target="_blank" rel="noopener">人形町餐饮（当天再定）</a></div></div></div>
+</div>
+<h4>快捷导航</h4>
+<div class="maps">
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=KAMENOI+HOTEL+IZUKOGEN&amp;destination=Izu-Kogen+Station&travelmode=driving" target="_blank" rel="noopener">酒店 → 伊豆高原站</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Izu-Kogen+Station&amp;destination=Tokyo+Station&travelmode=transit" target="_blank" rel="noopener">伊豆高原站 → 东京站</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Royal+Park+Hotel+Tokyo+Nihonbashi&travelmode=transit" target="_blank" rel="noopener">东京站 → 酒店（地铁）</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Station&amp;destination=Royal+Park+Hotel+Tokyo+Nihonbashi&travelmode=driving" target="_blank" rel="noopener">东京站 → 酒店（打车）</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Royal+Park+Hotel+Tokyo+Nihonbashi" target="_blank" rel="noopener">酒店地图</a>
+</div>
+<div class="note"><b>次日提醒：</b>10/5 东京塔看天气；能见度好再买 Main Deck 票，天气一般就现场决定。</div>
+<nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-03">← 10/3</a><a href="#day-2026-10-05">10/5 下一天 →</a></nav>
+</article>
+
+<!-- ===== Day 5 ===== -->
+<article class="day" id="day-2026-10-05" data-day="5">
+<div class="dayhead"><div class="datedot"><b>05</b><span>10/5 周一</span></div><div><h3>增上寺 → 芝公园 → 东京塔</h3><p class="sub">轻松城市日 · Main Deck 看天气买</p></div></div>
+<h4>当天重点</h4>
+<ul class="bullets">
+<li>轻松城市日：增上寺、芝公园、东京塔。</li>
+<li>东京塔票按天气和能见度购买，不需要过早锁死；成人 Main Deck ¥1,500。</li>
+<li>如果前几天累了，这天可以晚出门，下午／傍晚上塔。</li>
+</ul>
+<h4>执行顺序</h4>
+<div class="steps">
+<div class="step"><div class="t">09:30—10:30</div><div class="c"><p>早餐后出发，地铁前往大门／御成门／赤羽桥一带。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Zojo-ji+Temple&travelmode=transit" target="_blank" rel="noopener">酒店 → 增上寺</a></div></div></div>
+<div class="step"><div class="t">10:30—12:00</div><div class="c"><p>增上寺、芝公园散步，拍东京塔视角。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Zojo-ji+Temple&amp;destination=Tokyo+Tower&travelmode=walking" target="_blank" rel="noopener">增上寺 → 东京塔（步行）</a></div></div></div>
+<div class="step"><div class="t">12:00—13:30</div><div class="c"><p>午餐（赤羽桥／神谷町一带，当天再定）。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E8%B5%A4%E7%BE%BD%E6%A9%8B+%E3%83%A9%E3%83%B3%E3%83%81" target="_blank" rel="noopener">赤羽桥餐饮</a></div></div></div>
+<div class="step"><div class="t">13:30—15:30</div><div class="c"><p>东京塔 Main Deck。天气好可提前在线买票，天气一般现场买或取消；也可在 Foot Town 1F 当日购。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+Tower" target="_blank" rel="noopener">东京塔</a><a class="doc" href="https://en.tokyotower.co.jp/ticket/" target="_blank" rel="noopener">官方购票</a></div></div></div>
+<div class="step"><div class="t">16:00 后</div><div class="c"><p>回日本桥，COREDO 室町或酒店周边晚餐。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+Tower&amp;destination=Royal+Park+Hotel+Tokyo+Nihonbashi&travelmode=transit" target="_blank" rel="noopener">东京塔 → 酒店</a><a href="https://www.google.com/maps/search/?api=1&amp;query=COREDO+%E5%AE%A4%E7%94%BA" target="_blank" rel="noopener">COREDO 室町</a></div></div></div>
+</div>
+<h4>快捷导航</h4>
+<div class="maps">
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Zojo-ji+Temple&travelmode=transit" target="_blank" rel="noopener">酒店 → 增上寺</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Zojo-ji+Temple&amp;destination=Tokyo+Tower&travelmode=walking" target="_blank" rel="noopener">增上寺 → 东京塔</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Tokyo+Tower&travelmode=transit" target="_blank" rel="noopener">酒店 → 东京塔（直达）</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+Tower" target="_blank" rel="noopener">东京塔地图</a>
+<a class="doc" href="https://en.tokyotower.co.jp/ticket/" target="_blank" rel="noopener">东京塔官方票</a>
+</div>
+<div class="note"><b>次日提醒：</b>10/6 走代代木咖啡甜品线，集中安排 Acid Coffee Tokyo、Asterisque、Theobroma、Fuglen Tokyo、Nata de Cristiano；晚上确认 10/7 T-CAT 到羽田 T3 的巴士班次与取票方式。</div>
+<nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-04">← 10/4</a><a href="#day-2026-10-06">10/6 下一天 →</a></nav>
+</article>
+
+<!-- ===== Day 6 ===== -->
+<article class="day" id="day-2026-10-06" data-day="6">
+<div class="dayhead"><div class="datedot"><b>06</b><span>10/6 周二</span></div><div><h3>代代木咖啡甜品线 + 整理行李</h3><p class="sub">媳妇想去的店 · 半日线 · 晚上打包</p></div></div>
+<h4>当天重点</h4>
+<ul class="bullets">
+<li>主线：代代木上原、代代木八幡、富ヶ谷一带的咖啡甜品半日线 —— Acid Coffee Tokyo、Asterisque、Musée du Chocolat Théobroma、Fuglen Tokyo、Nata de Cristiano。</li>
+<li>10/5 是周一，甜品店休息风险更高；这条线放 10/6 周二更稳。</li>
+<li>傍晚回酒店整理行李，晚上确认回程航班、T-CAT 巴士班次、退税物品和行李重量。</li>
+</ul>
+<h4>执行顺序</h4>
+<div class="steps">
+<div class="step"><div class="t">09:00—10:00</div><div class="c"><p>酒店早餐后出发，从水天宫前／人形町乘地铁去代代木上原或代代木公园一带，不带大件行李。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Acid+Coffee+Tokyo&travelmode=transit" target="_blank" rel="noopener">酒店 → Acid Coffee Tokyo</a></div></div></div>
+<div class="step"><div class="t">10:15—11:00</div><div class="c"><p><b>Acid Coffee Tokyo</b>：先喝咖啡；若排队或当天未营业，改去 Fuglen Tokyo。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Acid+Coffee+Tokyo" target="_blank" rel="noopener">地图</a></div></div></div>
+<div class="step"><div class="t">11:10—12:00</div><div class="c"><p><b>Asterisque</b>：优先买 2—3 款甜品现场吃或带回酒店；出发前看官方 Instagram／公告确认营业。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Acid+Coffee+Tokyo&amp;destination=Asterisque+Tokyo&travelmode=walking" target="_blank" rel="noopener">从 Acid 步行</a><a class="doc" href="https://www.instagram.com/asterisque_uehara/" target="_blank" rel="noopener">官方 Instagram</a></div></div></div>
+<div class="step"><div class="t">12:10—13:30</div><div class="c"><p>代代木上原／富ヶ谷周边轻午餐，不排大餐，给下午甜品留胃。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E4%BB%A3%E3%80%85%E6%9C%A8%E4%B8%8A%E5%8E%9F+%E3%83%A9%E3%83%B3%E3%83%81" target="_blank" rel="noopener">代代木上原餐饮</a></div></div></div>
+<div class="step"><div class="t">13:30—15:30</div><div class="c"><p><b>Théobroma 渋谷本店</b>（富ヶ谷 1-14-9，10:00—19:00，年中无休）买巧克力 → <b>Fuglen Tokyo</b> 喝咖啡 → <b>Nata de Cristiano</b> 买蛋挞带走。按排队情况取舍。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Asterisque+Tokyo&amp;destination=Mus%C3%A9e+du+Chocolat+Th%C3%A9obroma+Shibuya&travelmode=walking" target="_blank" rel="noopener">Asterisque → Théobroma</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Mus%C3%A9e+du+Chocolat+Th%C3%A9obroma+Shibuya&amp;destination=Fuglen+Tokyo&travelmode=walking" target="_blank" rel="noopener">Théobroma → Fuglen</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Fuglen+Tokyo&amp;destination=Nata+de+Cristiano&travelmode=walking" target="_blank" rel="noopener">Fuglen → Nata</a></div></div></div>
+<div class="step"><div class="t">16:00—19:00</div><div class="c"><p>回 Royal Park Hotel 休息并整理行李，液体和充电宝分开放好。</p></div></div>
+<div class="step"><div class="t">19:00 后</div><div class="c"><p>轻松晚餐；确认第二天 T-CAT 步行路线和机场巴士时间。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Tokyo+City+Air+Terminal&travelmode=walking" target="_blank" rel="noopener">酒店 → T-CAT（步行）</a></div></div></div>
+</div>
+<h4>甜品与咖啡候选</h4>
+<div class="cards three">
+<article class="subcard"><h5>Musée du Chocolat Théobroma 渋谷本店</h5><p>富ヶ谷 1-14-9 · 代代木公园站 2 号出口步行 4 分</p><p>10:00—19:00（L.O. 18:15）· 年中无休</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Mus%C3%A9e+du+Chocolat+Th%C3%A9obroma+%E6%B8%8B%E8%B0%B7%E6%9C%AC%E5%BA%97" target="_blank" rel="noopener">地图</a><a class="doc" href="https://www.theobroma.co.jp/" target="_blank" rel="noopener">官网</a></div></article>
+<article class="subcard"><h5>Asterisque</h5><p>代代木上原一带的甜品店 · 当天以官方公告为准</p><p>建议上午去，热门款容易售罄</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Asterisque+%E4%BB%A3%E3%80%85%E6%9C%A8%E4%B8%8A%E5%8E%9F" target="_blank" rel="noopener">地图</a><a class="doc" href="https://www.instagram.com/asterisque_uehara/" target="_blank" rel="noopener">Instagram</a></div></article>
+<article class="subcard"><h5>Acid Coffee Tokyo / Fuglen Tokyo / Nata de Cristiano</h5><p>三家都在同一片区，步行串联；Fuglen 兼作 Acid 的备选</p><p>Nata de Cristiano 买蛋挞带走，适合当伴手礼</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Acid+Coffee+Tokyo" target="_blank" rel="noopener">Acid</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Fuglen+Tokyo" target="_blank" rel="noopener">Fuglen</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Nata+de+Cristiano" target="_blank" rel="noopener">Nata</a></div></article>
+</div>
+<h4>快捷导航</h4>
+<div class="maps">
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Acid+Coffee+Tokyo&travelmode=transit" target="_blank" rel="noopener">酒店 → Acid Coffee</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Acid+Coffee+Tokyo&amp;destination=Asterisque+Tokyo&travelmode=walking" target="_blank" rel="noopener">Acid → Asterisque</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Asterisque+Tokyo&amp;destination=Mus%C3%A9e+du+Chocolat+Th%C3%A9obroma+Shibuya&travelmode=walking" target="_blank" rel="noopener">Asterisque → Théobroma</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Mus%C3%A9e+du+Chocolat+Th%C3%A9obroma+Shibuya&amp;destination=Fuglen+Tokyo&travelmode=walking" target="_blank" rel="noopener">Théobroma → Fuglen</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Fuglen+Tokyo&amp;destination=Nata+de+Cristiano&travelmode=walking" target="_blank" rel="noopener">Fuglen → Nata</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Tokyo+City+Air+Terminal&travelmode=walking" target="_blank" rel="noopener">酒店 → T-CAT</a>
+</div>
+<div class="note"><b>次日提醒：</b>10/7 回程 MU538 14:30 起飞，建议 <b>11:30 前到羽田 T3</b>。从酒店到 T-CAT 走二层连廊，行李友好。</div>
+<nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-05">← 10/5</a><a href="#day-2026-10-07">10/7 下一天 →</a></nav>
+</article>
+
+<!-- ===== Day 7 ===== -->
+<article class="day" id="day-2026-10-07" data-day="7">
+<div class="dayhead"><div class="datedot"><b>07</b><span>10/7 周三</span></div><div><h3>日本桥 → T-CAT → 羽田 T3 → 上海</h3><p class="sub">MU538 14:30 → 17:20</p></div></div>
+<h4>当天重点</h4>
+<ul class="bullets">
+<li>回程：MU538，东京羽田 T3 → 上海，14:30—17:20。</li>
+<li>建议 <b>11:30 前抵达羽田 T3</b>，留足退税、托运、安检和购物时间。</li>
+<li>主方案：酒店二层连廊步行到 T-CAT，换机场巴士去羽田 T3。</li>
+</ul>
+<h4>执行顺序</h4>
+<div class="steps">
+<div class="step"><div class="t">08:00—09:30</div><div class="c"><p>早餐、退房、确认行李和护照。</p></div></div>
+<div class="step"><div class="t">09:30—10:00</div><div class="c"><p>从酒店二层连廊步行到 T-CAT（东京城市航空总站）。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Tokyo+City+Air+Terminal&travelmode=walking" target="_blank" rel="noopener">酒店 → T-CAT（步行）</a></div></div></div>
+<div class="step"><div class="t">10:00—10:45</div><div class="c"><p>乘 T-CAT 机场巴士到羽田 T3（成人 ¥1,000，约 25 分钟）；若当天堵车预警明显，改地铁／京急方案。本馆 1F 乘车，建议提前线上预约。</p><div class="maps"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+City+Air+Terminal&amp;destination=Haneda+Airport+Terminal+3&travelmode=transit" target="_blank" rel="noopener">T-CAT → 羽田 T3</a><a class="doc" href="https://www.tcat-hakozaki.co.jp/en/airport/haneda.html" target="_blank" rel="noopener">巴士官方</a></div></div></div>
+<div class="step"><div class="t">11:00—12:00</div><div class="c"><p>到达羽田 T3，办理托运和值机。</p><div class="maps"><a href="https://www.google.com/maps/search/?api=1&amp;query=Haneda+Airport+Terminal+3" target="_blank" rel="noopener">羽田 T3 地图</a></div></div></div>
+<div class="step"><div class="t">12:00—13:30</div><div class="c"><p>安检、出境、退税／购物、午餐。</p></div></div>
+<div class="step"><div class="t">14:30—17:20</div><div class="c"><p>MU538 返回上海。雨天请多留 15—30 分钟缓冲。</p></div></div>
+</div>
+<h4>快捷导航</h4>
+<div class="maps">
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Park+Hotel+Tokyo+Nihonbashi&amp;destination=Tokyo+City+Air+Terminal&travelmode=walking" target="_blank" rel="noopener">酒店 → T-CAT（步行）</a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tokyo+City+Air+Terminal&amp;destination=Haneda+Airport+Terminal+3&travelmode=transit" target="_blank" rel="noopener">T-CAT → 羽田 T3</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Haneda+Airport+Terminal+3" target="_blank" rel="noopener">羽田 T3 地图</a>
+<a class="doc" href="https://www.tcat-hakozaki.co.jp/en/airport/haneda.html" target="_blank" rel="noopener">机场巴士官方</a>
+</div>
+<div class="note"><b>提醒：</b>T-CAT 巴士班次无法在本页写死，请以官方当日时刻为准；未线上购票可在 T-CAT 1F 柜台或售票机现场买，满员需等下一班。</div>
+<nav class="day-nav" aria-label="日期导航"><a href="#day-2026-10-06">← 10/6</a><a href="#days">回到全部日程</a></nav>
+</article>
+
+</section>
+
+<!-- ===================== 票务 ===================== -->
+<section id="tickets">
+<div class="section-head"><h2>必买票务 · 只看你要操作的</h2><p>按「现在买、临近买、当天买」排序。每项都写清入口、步骤和截止建议；完成后把确认页截图离线保存。</p></div>
+<div class="note" style="margin-bottom:14px"><b>当前优先级：</b>两段踊り子已通过 KLOOK 出票；接下来确认返程 T-CAT 巴士。N’EX、大室山保留到当天，东京塔等天气预报清晰后再买。</div>
+<div class="buy-grid">
+<article class="buy-card urgent"><span class="status">两段已出票 · KLOOK</span><h3>踊り子指定席 · 东京 ⇄ 伊豆高原</h3><p><b>去程：</b>10/2 Odoriko 5，东京 10:00 → 伊豆高原 12:04；成人 2 人，8 号车 7A／7B，实付 ¥512.00。<br><b>返程：</b>10/4 Odoriko 4，伊豆高原 12:46 → 东京 14:49；成人 2 人，1 号车 14C／14D，合计 ¥512.00；东京站到达站台 8。</p><ol class="steps-list"><li>出发前分别打开两张 KLOOK 电子特急列车票，并保存到设备。</li><li>去程确认 8 号车 7A／7B；返程确认 1 号车 14C／14D。</li><li>乘车当天按 App 提示向工作人员出示电子票；遇查票同时准备票价说明。</li></ol><p class="small"><b>待办：</b>两张电子票都保存到设备，出发前确认 KLOOK App 可离线打开。</p><div class="buy-actions"><a href="https://www.klook.com/zh-CN/rails-32/1012-japan/" target="_blank" rel="noopener">KLOOK 火车票</a><a class="alt" href="https://www.jreast.co.jp/en/multi/traininformation/odoriko/" target="_blank" rel="noopener">列车说明</a></div></article>
+<article class="buy-card"><span class="status">落地当天购买</span><h3>N’EX 指定席 · 成田 T2 → 东京</h3><p><b>使用：</b>10/1 入境后乘最近合适班次。返程从羽田走，不买 N’EX 往返票。</p><ol class="steps-list"><li>取完行李后到「空港第2ビル站」的 JR EAST 服务中心、绿色窗口或指定席售票机。</li><li>售票机选简体中文，目的地选 Tokyo，购买普通车指定席；可同时确认含到神田的乘车券。</li><li>不能只刷 Suica 上 N’EX，需有乘车券与指定席特急券。</li></ol><p class="small"><b>建议时间：</b>10/1 通关后现场买，不提前绑死班次；航班延误或通关慢也不慌。</p><div class="buy-actions"><a href="https://www.jreast.co.jp/en/multi/nex/tickets/" target="_blank" rel="noopener">官方购票说明</a><a class="alt" href="https://www.eki-net.com/jreast-train-reservation/Top/Index" target="_blank" rel="noopener">线上备选</a></div></article>
+<article class="buy-card"><span class="status">当天现场购买</span><h3>大室山登山缆车 · 往返票</h3><p><b>使用：</b>10/3。乘车口前窗口售票，票仅限购买当日有效；10 月通常 09:00—16:00 营业，山顶末班 16:15，以当日运行公告为准。</p><ol class="steps-list"><li>早餐时先看官网 Operation Status 和风雨情况。</li><li>确认运行后再去现场，在鸟居后的乘车口前窗口购买往返票。</li><li>可用现金、信用卡、电子货币或二维码支付。</li></ol><p class="small"><b>建议时间：</b>不提前买；成人往返 ¥1,000，出发前再复核。</p><div class="buy-actions"><a href="https://omuroyama.com/index_en/information_en/" target="_blank" rel="noopener">运行与票价</a><a class="alt" href="https://omuroyama.com/enjoy/lift/" target="_blank" rel="noopener">现场购票位置</a></div></article>
+<article class="buy-card"><span class="status">天气明确后购买</span><h3>东京塔 Main Deck</h3><p><b>使用：</b>10/5 下午。官网可提前购买 Main Deck 电子票，减少现场排队；若天气差，也可当天在 Foot Town 1F 售票处决定。</p><ol class="steps-list"><li>打开官方 Tickets，选择 MAIN DECK Online Tickets。</li><li>选 2026/10/5、人数和可用时段，核对退改规则后付款。</li><li>保存二维码，入场时调高手机亮度并准备离线截图。</li></ol><p class="small"><b>建议时间：</b>10/2—10/4 看东京能见度后再买；当前成人 Main Deck ¥1,500。</p><div class="buy-actions"><a href="https://en.tokyotower.co.jp/ticket/" target="_blank" rel="noopener">官方在线票</a><a class="alt" href="https://en.tokyotower.co.jp/fee/" target="_blank" rel="noopener">票价与营业时间</a></div></article>
+<article class="buy-card urgent"><span class="status">已开售 · 出发前锁定</span><h3>T-CAT → 羽田 T3 机场巴士</h3><p><b>使用：</b>10/7。官方从乘车日前 1 个月开放线上预约。成人单程 ¥1,000，车程约 25 分钟，需为道路拥堵留足余量。</p><ol class="steps-list"><li>进入官方页点 T-CAT → Haneda Airport 的 Reserve Online。</li><li>出发选 T-CAT，到达选 Haneda Airport Terminal 3。</li><li>选择能让你在 11:30 前抵达 T3 的班次，付款并保存凭证。</li><li>当天从酒店二层连廊到 T-CAT，本馆 1F 乘车。</li></ol><p class="small"><b>建议时间：</b>现在即可买；建议最迟 10/6 完成。现场也可在 T-CAT 1F 柜台或售票机买，满员需等下一班。</p><div class="buy-actions"><a href="https://www.tcat-hakozaki.co.jp/en/airport/haneda.html" target="_blank" rel="noopener">预约与班次</a><a class="alt" href="https://www.tcat-hakozaki.co.jp/en/contact/" target="_blank" rel="noopener">购票 FAQ</a></div></article>
+<article class="buy-card"><span class="status">无需提前买</span><h3>Suica、东京地铁与伊豆短途</h3><p><b>使用：</b>东京地铁、JR 普通线和多数便利交通。它们不是本次需要提前锁定的票。</p><ol class="steps-list"><li>到日本后购买／充值 Suica，或确认手机钱包里的交通卡可用。</li><li>东京市内按次刷卡，不为省少量费用强行购买通票。</li><li>伊豆出租车、公交与酒店接驳按当天路线支付或预约。</li></ol><p class="small"><b>建议时间：</b>10/1 落地后处理；出发前只需准备一张可境外支付银行卡和少量现金。</p></article>
+</div>
+</section>
+
+<!-- ===================== 准备 ===================== -->
+<section id="prepare">
+<div class="section-head"><h2>提前准备 · 一张清单完成</h2><p>只处理会影响成行的事项。价格、班次和天气会变化，页面保留决策规则，不写死未经确认的信息。</p></div>
+<div class="cards two" style="margin-bottom:4px">
+<article class="card">
+<h3>需要提前完成</h3>
+<ol class="steps-list">
+<li><b>证件与入境：</b>护照有效期、签证/入境资格、机票姓名一致；出发前完成 <b>Visit Japan Web</b> 并保存两个二维码离线截图（每人各一套）。</li>
+<li><b>航班：</b>在东航 App 复核 MU521、MU538、航站楼与行李额；起飞前一天在线值机。</li>
+<li><b>票务：</b>两段踊り子已出票；继续确认返程 T-CAT 巴士。</li>
+<li><b>龟之井确认：</b>核对房型对应退房时间、早餐时间、免费接驳是否需要预约。</li>
+<li><b>支付与通信：</b>可境外支付银行卡、少量日元现金、Suica、日本流量卡／eSIM。</li>
+<li><b>旅行保障：</b>覆盖医疗与行程变更的旅行保险；保单、护照与订单备份到手机离线文件。</li>
+</ol>
+<div class="maps"><a class="doc" href="https://www.vjw.digital.go.jp/" target="_blank" rel="noopener">Visit Japan Web</a><a class="doc" href="https://www.jreast.co.jp/en/multi/traininformation/odoriko/" target="_blank" rel="noopener">JR East 踊り子</a></div>
+</article>
+<article class="card">
+<h3>时间线</h3>
+<p><b>出发前 30—7 天：</b>两段踊り子已出票，确认 T-CAT 巴士；同时确认酒店餐食／接驳、保险、eSIM 和常用 App。</p>
+<p><b>出发前 72—24 小时：</b>复核航班与天气；确认大室山运行公告、T-CAT 巴士、酒店地址；下载地图和订单截图。生成 Visit Japan Web 二维码。</p>
+<p><b>每日随身：</b>护照、手机、充电宝、银行卡、现金、交通卡、雨具与常用药。伊豆海岸穿防滑鞋，不穿新鞋。</p>
+<p><b>公开页面边界：</b>不上传订单号、护照、姓名、电话、房号和二维码。私人凭证只保存在本地或可信云盘。</p>
+</article>
+</div>
+</section>
+
+<!-- ===================== 官方入口 ===================== -->
+<section id="sources">
+<div class="section-head"><h2>官方入口与实景照片</h2><p>照片使用仓库内本地 JPG，避免线上热链失效。</p></div>
+<div class="sources">
+<a href="https://kamenoi-hotels.com/izukougen/" target="_blank" rel="noopener">亀之井酒店官方</a>
+<a href="https://kamenoi-hotels.com/izukougen/access/" target="_blank" rel="noopener">官方交通/接驳</a>
+<a href="https://www.rph.co.jp/en/" target="_blank" rel="noopener">Royal Park Hotel</a>
+<a href="https://www.tcat-hakozaki.co.jp/en/airport/haneda.html" target="_blank" rel="noopener">T-CAT → 羽田</a>
+<a href="https://en.tokyotower.co.jp/" target="_blank" rel="noopener">东京塔官方</a>
+<a href="https://omuroyama.com/" target="_blank" rel="noopener">大室山官方</a>
+<a href="https://itospa.com/spot/detail_54001.html" target="_blank" rel="noopener">城崎海岸官方观光</a>
+<a href="https://www.izukyu.co.jp/english/" target="_blank" rel="noopener">伊豆急行官方</a>
+<a href="https://www.jreast.co.jp/multi/en/" target="_blank" rel="noopener">JR East 官方</a>
+<a href="https://www.theobroma.co.jp/" target="_blank" rel="noopener">Theobroma</a>
+<a href="https://www.instagram.com/asterisque_uehara/" target="_blank" rel="noopener">Asterisque</a>
+<a href="https://fuglencoffee.jp/" target="_blank" rel="noopener">Fuglen Tokyo</a>
+<a href="https://www.nata-de-cristiano.com/" target="_blank" rel="noopener">Nata de Cristiano</a>
+</div>
+<div class="gallery"><img src="assets/izu.jpg" alt="伊豆海岸实景" loading="lazy"><img src="assets/tokyo.jpg" alt="东京实景" loading="lazy"><img src="assets/fuji.jpg" alt="富士山实景" loading="lazy"></div>
+<div class="note" style="margin-top:16px">版本记录：2026/9/29 更新。按最新确认的行程重写页面：Day 1 改为「N’EX → 东京站 → JR 一站神田 → 西口步行到酒店」；补齐每天每一步的 Google 地图导航；新增顶部模块导航与日期快速导航；新增「天气与备选预案」。</div>
+</section>
+
 <footer class="footer">Japan Autumn Notes · 海风线 · 2026<br><a href="https://go.skj1023.top">返回 GO 首页</a></footer>
-</main><nav class="bottom" aria-label="底部导航"><a href="#days" class="active">☷<br>日程</a><a href="#tickets">票<br>购票</a><a href="#prepare">✓<br>准备</a><a href="#transport">↔<br>交通</a><a href="#hotels">⌂<br>酒店</a></nav>
+</main>
+
+<nav class="bottom" aria-label="底部导航">
+<a href="#days"><i>☷</i>日程</a><a href="#tickets"><i>🎫</i>票务</a><a href="#prepare"><i>✓</i>准备</a><a href="#transport"><i>↔</i>交通</a><a href="#hotels"><i>⌂</i>酒店</a>
+</nav>
+
 <script>
-(()=>{const tabs=[...document.querySelectorAll('.filter a')],days=[...document.querySelectorAll('.day')],dates=days.map(d=>`#${d.id}`);function setView(id,scroll=true){const isOverview=!id||id==='#days';days.forEach(d=>d.hidden=!isOverview&&d.id!==id.slice(1));tabs.forEach(t=>{const active=isOverview?t.getAttribute('href')==='#days':t.getAttribute('href')===id;t.classList.toggle('active',active);t.setAttribute('aria-selected',String(active))});if(scroll){const target=isOverview?document.querySelector('#days'):document.querySelector(id);target?.scrollIntoView({behavior:'smooth',block:'start'})}}function route(){const h=location.hash;if(h&&dates.includes(h)){setView(h,false)}else{setView('#days',false)}}tabs.forEach((t,i)=>{t.addEventListener('click',e=>{e.preventDefault();history.pushState(null,'',t.getAttribute('href'));setView(t.getAttribute('href'))});t.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const n=(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;tabs[n].focus();tabs[n].click()}})});addEventListener('hashchange',route);addEventListener('popstate',route);route();const anchors=[...document.querySelectorAll('.bottom a')],secs=anchors.map(a=>document.querySelector(a.getAttribute('href'))),io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)anchors.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-25% 0px -60% 0px'});secs.forEach(s=>s&&io.observe(s))})()
-</script></body></html>
+(()=>{
+const dayChips=[...document.querySelectorAll('.daybar .chip')];
+const days=[...document.querySelectorAll('.day')];
+const dayHashes=days.map(d=>'#'+d.id);
+function setDay(id,scroll){
+  const all=!id||id==='#days';
+  days.forEach(d=>{d.hidden=!all&&('#'+d.id)!==id});
+  dayChips.forEach(c=>{const on=all?c.getAttribute('href')==='#days':c.getAttribute('href')===id;c.classList.toggle('active',on);c.setAttribute('aria-selected',String(on))});
+  if(scroll){const t=all?document.querySelector('#days'):document.querySelector(id);if(t)t.scrollIntoView({behavior:'smooth',block:'start'})}
+}
+function route(){const h=location.hash;if(h&&dayHashes.includes(h)){setDay(h,false)}else{setDay('#days',false)}}
+dayChips.forEach(c=>{c.addEventListener('click',e=>{e.preventDefault();history.pushState(null,'',c.getAttribute('href'));setDay(c.getAttribute('href'))})});
+document.querySelectorAll('.day-nav a').forEach(a=>{a.addEventListener('click',e=>{const h=a.getAttribute('href');if(!dayHashes.includes(h))return;e.preventDefault();history.pushState(null,'',h);setDay(h)})});
+addEventListener('hashchange',route);addEventListener('popstate',route);
+const mods=[...document.querySelectorAll('.topbar .chip')];
+const bots=[...document.querySelectorAll('.bottom a')];
+mods.forEach(m=>{m.addEventListener('click',e=>{const id=m.getAttribute('href');const t=document.querySelector(id);if(!t)return;e.preventDefault();history.pushState(null,'',id);t.scrollIntoView({behavior:'smooth',block:'start'})})});
+const targets=mods.map(m=>document.querySelector(m.getAttribute('href')));
+const io=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){const h='#'+en.target.id;mods.forEach(m=>m.classList.toggle('active',m.getAttribute('href')===h));bots.forEach(b=>b.classList.toggle('active',b.getAttribute('href')===h))}})},{rootMargin:'-30% 0px -62% 0px'});
+targets.forEach(t=>t&&io.observe(t));
+route();
+})()
+</script>
+</body></html>
